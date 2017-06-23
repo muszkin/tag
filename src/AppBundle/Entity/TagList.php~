@@ -1,0 +1,72 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: muszkin
+ * Date: 24.05.17
+ * Time: 12:16
+ */
+
+namespace AppBundle\Entity;
+
+use AppBundle\Model\BaseModel;
+use Doctrine\ORM\Mapping as ORM;
+use AppBundle\Model\TagListInterface;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
+
+/**
+ * Class TagList
+ * @package AppBundle\Entity
+ * @ORM\Entity(repositoryClass="AppBundle\Repository\TagListRepository")
+ * @ORM\Table(name="tag_list")
+ */
+class TagList extends BaseModel implements TagListInterface
+{
+    /**
+     * @ORM\Id
+     * @ORM\Column(name="tag_list_id",type="integer")
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @ORM\Column(name="date",type="datetime")
+     */
+    private $date;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Tag",inversedBy="tag_list")
+     * @ORM\JoinColumn(name="tag_id",referencedColumnName="tag_id")
+     */
+    private $tag;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Agent",inversedBy="tags_list")
+     * @ORM\JoinColumn(name="agent_id",referencedColumnName="agent_id")
+     */
+    private $agent;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Team",inversedBy="tags_list")
+     * @ORM\JoinColumn(name="team_id",referencedColumnName="team_id")
+     */
+    private $team;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Source",inversedBy="tags_list")
+     * @ORM\JoinColumn(name="source_id",referencedColumnName="source_id")
+     */
+    private $source;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Category",inversedBy="tags_list")
+     * @ORM\JoinColumn(name="category_id",referencedColumnName="category_id")
+     */
+    private $category;
+
+    public function __toString()
+    {
+
+        return "{$this->getId()};{$this->getDate()->format('Y-m-d H:i:s')};{$this->getAgent()};{$this->getSource()};{$this->getCategory()};{$this->getTag()};{$this->getTeam()}";
+    }
+}
