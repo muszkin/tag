@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+    <services>
+        <service id="memcached" class="Memcached">
+            <call method="addServers">
+                <argument>%memcached.servers%</argument>
+            </call>
+        </service>
+        <service id="doctrine.cache.memcached" class="Doctrine\Common\Cache\MemcachedCache">
+            <call method="setMemcached">
+                <argument type="service" id="memcached"/>
+            </call>
+        </service>
+        <service id="tag.filter.provider" class="AppBundle\Services\Filter\FilterProvider">
+            <argument type="service" id="doctrine.orm.entity_manager" />
+            <argument type="service" id="doctrine.cache.memcached"/>
+            <argument type="service" id="translator"/>
+        </service>
+        <service id="tag.provider.abstract" class="AppBundle\Services\Remote\AbstractProvider" abstract="true">
+            <argument type="service" id="doctrine.orm.entity_manager" />
+            <argument type="service" id="logger"/>
+        </service>
+        <service id="tag.provider.kayako" class="AppBundle\Services\Remote\KayakoProvider" parent="tag.provider.abstract"/>
+        <service id="tag.provider.thulium" class="AppBundle\Services\Remote\ThuliumProvider" parent="tag.provider.abstract">
+            <argument>%thulium_url%</argument>
+            <argument>%thulium_login%</argument>
+            <argument>%thulium_password%</argument>
+        </service>
+        <service id="tag.provider.whmcs" class="AppBundle\Services\Remote\WhmcsProvider" parent="tag.provider.abstract"/>
+        <service id="tag.activity.log" class="AppBundle\Services\ActivityLog\ActivityLogProvider">
+            <argument type="service" id="doctrine.orm.entity_manager"/>
+            <argument type="service" id="logger"/>
+        </service>
+    </services>
+</container>

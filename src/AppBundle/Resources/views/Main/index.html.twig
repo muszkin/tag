@@ -1,0 +1,64 @@
+{% trans_default_domain "tag" %}
+{% extends '@App/base.html.twig' %}
+{% block content %}
+    {% if tags is empty %}
+        <div class="row">
+            <div class="col-xs-12" id="no-tags">
+                {{ "no.tags.filter" |trans }}
+            </div>
+        </div>
+    {% else %}
+        <div class="charts">
+        {% for key,chart in charts %}
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="charts-pie charts-pie-{{ key }}" data-json="{{ chart.pie|json_encode }}" id="charts-pie-{{ key }}" data-name="{{ chart.name }}">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="charts-line charts-line-{{ key }}" data-json="{{ chart.line|json_encode }}" id="charts-line-{{ key }}" data-name="{{ chart.name }}" data-graphs="{{ chart.graphs|json_encode }}">
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div id="charts-table">
+                    <table class="table table-responsive table-bordered" id="tags-table">
+                        <thead>
+                            <tr>
+                                <th>{{ "Id"|trans }}</th>
+                                <th>{{ "Date"|trans }}</th>
+                                <th>{{ "Tag"|trans }}</th>
+                                <th>{{ "Agent"|trans }}</th>
+                                <th>{{ "Team" |trans}}</th>
+                                <th>{{ "Source" |trans}}</th>
+                                <th>{{ "Category"|trans }}</th>
+                                <th>{{ "Ticket id or Connection id"|trans }}</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for tag in tags %}
+                                <tr>
+                                    <td>{{ tag.id }}</td>
+                                    <td>{{ tag.date|date('Y-m-d H:i:s') }}</td>
+                                    <td>{{ tag.tag | trans}}</td>
+                                    <td>{{ tag.agent | trans}}</td>
+                                    <td>{{ tag.team | trans}}</td>
+                                    <td>{{ tag.source | trans}}</td>
+                                    <td>{{ tag.category | trans}}</td>
+                                    {% if tag.ticketId is not null %}<td><a href="https://pomoc.shoper.pl/staff/index.php?/Tickets/Ticket/View/{{ tag.ticketId }}" target="_blank">{{ tag.ticketId }}</a></td>{% endif %}
+                                    {% if tag.connectionId is not null %}<td>{{ tag.connectionId }}</td>{% endif %}
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+    {% include '@App/Main/scripts.html.twig' %}
+{% endblock %}

@@ -1,0 +1,10 @@
+#charts-pie-team,#charts-line-team
+,#charts-pie-agent,#charts-line-agent
+,#charts-pie-source,#charts-line-source
+,#charts-pie-category,#charts-line-category
+,#charts-pie-tag,#charts-line-tag{
+    height:500px;
+}
+#charts-pie-tag,#charts-line-tag{
+    height:1000px;
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{% if title is defined %}{{ title }}{% else %}Tag raport{% endif %}</title>
+        <script type="text/javascript" src="{{ asset('public/vendor/jquery/dist/jquery.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('public/vendor/jquery-ui/jquery-ui.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('public/vendor/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('public/vendor/amcharts/dist/amcharts/amcharts.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('public/js/main.js') }}"></script>
+        <link rel="stylesheet" type="text/css" href="{{ asset('public/vendor/bootstrap/dist/css/bootstrap.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('public/vendor/bootstrap/dist/css/bootstrap-theme.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('public/vendor/jquery-ui/themes/base/jquery-ui.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('public/css/main.css') }}">
+    </head>
+    <body class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                {% block content %}
+                {% endblock content %}
+            </div>
+        </div>
+    </body>
+</html>

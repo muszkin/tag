@@ -1,0 +1,871 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>menu.submit</source>
+                <target xml:lang="en">Search</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>no.tags.filter</source>
+                <target xml:lang="en">There is no tags for current search</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Problem</source>
+                <target xml:lang="en">Problem</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Formal</source>
+                <target xml:lang="en">Formal</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>HowTo</source>
+                <target xml:lang="en">HowTo</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Prospect</source>
+                <target xml:lang="en">Prospect</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Reseller</source>
+                <target xml:lang="en">Reseller</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Kayako</source>
+                <target xml:lang="en">Kayako</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Thulium</source>
+                <target xml:lang="en">Thulium</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Whmcs</source>
+                <target xml:lang="en">Whmcs</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Shoper</source>
+                <target xml:lang="en">Shoper</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Zencommerce.in</source>
+                <target xml:lang="en">Zencommerce.in</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Zencommerce.com</source>
+                <target xml:lang="en">Zencommerce.com</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>q_client_soft_problem_domain</source>
+                <target xml:lang="en">Add domain or redirect</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>q_client_soft_problem_mail</source>
+                <target xml:lang="en">Set mails / Webmail / Client mail</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>q_client_soft_problem_product</source>
+                <target xml:lang="en">Create products</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>q_client_soft_problem_category</source>
+                <target xml:lang="en">Create category</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>q_client_soft_problem_csv</source>
+                <target xml:lang="en">Import / Export CSV</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>q_client_soft_problem_options</source>
+                <target xml:lang="en">Create Options</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>q_client_soft_problem_attributes</source>
+                <target xml:lang="en">Create attributes</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>q_client_soft_problem_layout</source>
+                <target xml:lang="en">Configure layout</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>q_client_soft_problem_css_html</source>
+                <target xml:lang="en">Advanced editing</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>q_client_soft_problem_info_page</source>
+                <target xml:lang="en">Create info page</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>q_client_soft_problem_shipping</source>
+                <target xml:lang="en">Configure shipping method</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>q_client_soft_problem_payment</source>
+                <target xml:lang="en">Configure payment method</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>q_client_soft_problem_language</source>
+                <target xml:lang="en">Set languages</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>q_client_soft_problem_currency</source>
+                <target xml:lang="en">Set currency</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>q_client_soft_problem_phrases</source>
+                <target xml:lang="en">Edit phrases</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>q_client_soft_problem_unit</source>
+                <target xml:lang="en">Set unit</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>q_client_soft_problem_invoice</source>
+                <target xml:lang="en">Generate invoice</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>q_client_soft_problem_auto_mail</source>
+                <target xml:lang="en">Configure auto mails </target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>q_client_soft_problem_discount</source>
+                <target xml:lang="en">Configure discounts</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>q_client_soft_problem_points</source>
+                <target xml:lang="en">Set loyality points</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>q_client_soft_problem_newsletter</source>
+                <target xml:lang="en">Configure newsletter</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>q_client_soft_problem_blog</source>
+                <target xml:lang="en">Configure blog</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>q_client_soft_problem_seo</source>
+                <target xml:lang="en">Seo / metadata / sitemap  </target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>q_client_soft_problem_google</source>
+                <target xml:lang="en">Add site to google </target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>q_client_soft_problem_analytics</source>
+                <target xml:lang="en">Set google analytics</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>q_client_soft_problem_allegro</source>
+                <target xml:lang="en">Configure Allegro</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>q_client_soft_problem_facebook</source>
+                <target xml:lang="en">Set facebook module</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>q_client_soft_problem_comparison_site</source>
+                <target xml:lang="en">Set ceneo, nokaut, skąpiec, etc</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>q_client_soft_problem_google_products</source>
+                <target xml:lang="en">Set google merchant</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>q_client_soft_problem_favato</source>
+                <target xml:lang="en">Configure favato</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>q_client_soft_problem_sales_manago</source>
+                <target xml:lang="en">Configure salesmanago</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>q_client_soft_problem_feedback</source>
+                <target xml:lang="en">Configure integrated feedback</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>q_client_soft_problem_ftp</source>
+                <target xml:lang="en">Set FTP</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>q_client_soft_problem_appstore</source>
+                <target xml:lang="en">Aplications from appstore</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>q_client_soft_problem_api</source>
+                <target xml:lang="en">API</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>q_client_soft_problem_no_tag</source>
+                <target xml:lang="en">No tag</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>q_client_soft_problem_erp</source>
+                <target xml:lang="en">Integration ERP</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>q_client_soft_problem_order</source>
+                <target xml:lang="en">Orders Edit</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>q_client_soft_problem_ssl</source>
+                <target xml:lang="en">SSL problems</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>q_client_soft_problem_monit</source>
+                <target xml:lang="en">Reminder</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>q_client_soft_cache</source>
+                <target xml:lang="en">Clean cache</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>q_client_soft_problem_shopermanager</source>
+                <target xml:lang="en">Shopermanager</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>q_client_soft_problem_shoper_pay</source>
+                <target xml:lang="en">Add shoper pay</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>q_client_soft_problem_search</source>
+                <target xml:lang="en">Serach in admin / front - filters</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>q_client_soft_problem_tpl_update</source>
+                <target xml:lang="en">Update - tpl crashed</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>q_client_soft_problem_login</source>
+                <target xml:lang="en">Login problems</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>q_client_soft_lt_problem_change_domain</source>
+                <target xml:lang="en">LT domain change problem</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>q_client_soft_lt_problem_move_soft</source>
+                <target xml:lang="en">LT move soft problem </target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>q_client_soft_lt_problem_update</source>
+                <target xml:lang="en">LT update problem</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>q_client_soft_lt_problem_install</source>
+                <target xml:lang="en">LT install problem</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>q_client_soft_lt_dev</source>
+                <target xml:lang="en">LT Code edit problem</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>q_client_soft_lt_problem_error</source>
+                <target xml:lang="en">LT Softwere crashed</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>q_client_soft_lt_problem_cron</source>
+                <target xml:lang="en">LT cron problems</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>q_client_soft_lt_problem_hostingplus</source>
+                <target xml:lang="en">LT hostingplus problems</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>q_client_formal_invoice_need</source>
+                <target xml:lang="en">Client need invoice</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>q_client_formal_invoice_change</source>
+                <target xml:lang="en">Invoice data change</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>q_client_formal_data_change</source>
+                <target xml:lang="en">Account data change</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>q_client_formal_upsell</source>
+                <target xml:lang="en">Sale of additional services</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>q_client_formal_upsell_continuation</source>
+                <target xml:lang="en">Continuation of additional services</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>q_client_formal_continuation</source>
+                <target xml:lang="en">Continuation of the subscription</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>q_client_formal_giodo</source>
+                <target xml:lang="en">Giodo notifications</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>q_client_formal_no_tag</source>
+                <target xml:lang="en">No tag</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>q_client_formal_panel</source>
+                <target xml:lang="en">customer panel</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>q_client_formal_payment_confirm</source>
+                <target xml:lang="en">Purchase confirmation</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>q_client_formal_home</source>
+                <target xml:lang="en">Go home.pl</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>q_client_formal_feature</source>
+                <target xml:lang="en">Demand for new function</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>q_client_formal_buyer</source>
+                <target xml:lang="en">Shop customer contact</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>q_client_formal_swich</source>
+                <target xml:lang="en">switch the call</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>q_client_formal_backup</source>
+                <target xml:lang="en">Store backup</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>q_client_formal_deal</source>
+                <target xml:lang="en">Reminder of contract terms</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>q_client_soft_ssl</source>
+                <target xml:lang="en">SSl installation </target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>q_client_orders_promotion</source>
+                <target xml:lang="en">Promotion first orders</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>q_client_soft_howto_domain</source>
+                <target xml:lang="en">Buy/add domain or redirect </target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>q_client_soft_howto_mail</source>
+                <target xml:lang="en">Set mails / Webmail / Client mail</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>q_client_soft_howto_product</source>
+                <target xml:lang="en">Create products</target>
+            </trans-unit>
+            <trans-unit id="90">
+                <source>q_client_soft_howto_category</source>
+                <target xml:lang="en">Create category</target>
+            </trans-unit>
+            <trans-unit id="91">
+                <source>q_client_soft_howto_csv</source>
+                <target xml:lang="en">Import / Export CSV</target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>q_client_soft_howto_options</source>
+                <target xml:lang="en">Create Options</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>q_client_soft_howto_attributes</source>
+                <target xml:lang="en">Create attributes</target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>q_client_soft_howto_layout</source>
+                <target xml:lang="en">Configure layout</target>
+            </trans-unit>
+            <trans-unit id="95">
+                <source>q_client_soft_howto_css_html</source>
+                <target xml:lang="en">Advanced editing</target>
+            </trans-unit>
+            <trans-unit id="96">
+                <source>q_client_soft_howto_info_page</source>
+                <target xml:lang="en">Create info page</target>
+            </trans-unit>
+            <trans-unit id="97">
+                <source>q_client_soft_howto_shipping</source>
+                <target xml:lang="en">Configure shipping method</target>
+            </trans-unit>
+            <trans-unit id="98">
+                <source>q_client_soft_howto_payment</source>
+                <target xml:lang="en">Configure payment method</target>
+            </trans-unit>
+            <trans-unit id="99">
+                <source>q_client_soft_howto_language</source>
+                <target xml:lang="en">Set languages</target>
+            </trans-unit>
+            <trans-unit id="100">
+                <source>q_client_soft_howto_currency</source>
+                <target xml:lang="en">Set currency</target>
+            </trans-unit>
+            <trans-unit id="101">
+                <source>q_client_soft_howto_phrases</source>
+                <target xml:lang="en">Edit phrases</target>
+            </trans-unit>
+            <trans-unit id="102">
+                <source>q_client_soft_howto_unit</source>
+                <target xml:lang="en">Set unit</target>
+            </trans-unit>
+            <trans-unit id="103">
+                <source>q_client_soft_howto_invoice</source>
+                <target xml:lang="en">Generate invoice</target>
+            </trans-unit>
+            <trans-unit id="104">
+                <source>q_client_soft_howto_auto_mail</source>
+                <target xml:lang="en">Configure auto mails </target>
+            </trans-unit>
+            <trans-unit id="105">
+                <source>q_client_soft_howto_discount</source>
+                <target xml:lang="en">Configure discounts</target>
+            </trans-unit>
+            <trans-unit id="106">
+                <source>q_client_soft_howto_points</source>
+                <target xml:lang="en">Set loyality points</target>
+            </trans-unit>
+            <trans-unit id="107">
+                <source>q_client_soft_howto_newsletter</source>
+                <target xml:lang="en">Configure newsletter</target>
+            </trans-unit>
+            <trans-unit id="108">
+                <source>q_client_soft_howto_blog</source>
+                <target xml:lang="en">Configure blog</target>
+            </trans-unit>
+            <trans-unit id="109">
+                <source>q_client_soft_howto_seo</source>
+                <target xml:lang="en">Seo / metadata / sitemap</target>
+            </trans-unit>
+            <trans-unit id="110">
+                <source>q_client_soft_howto_google</source>
+                <target xml:lang="en">Add site to google</target>
+            </trans-unit>
+            <trans-unit id="111">
+                <source>q_client_soft_howto_analytics</source>
+                <target xml:lang="en">Set google analytics</target>
+            </trans-unit>
+            <trans-unit id="112">
+                <source>q_client_soft_howto_allegro</source>
+                <target xml:lang="en">Configure Allegro</target>
+            </trans-unit>
+            <trans-unit id="113">
+                <source>q_client_soft_howto_facebook</source>
+                <target xml:lang="en">Set facebook module</target>
+            </trans-unit>
+            <trans-unit id="114">
+                <source>q_client_soft_howto_comparison_site </source>
+                <target xml:lang="en">Set ceneo, nokaut, skąpiec, etc</target>
+            </trans-unit>
+            <trans-unit id="115">
+                <source>q_client_soft_howto_google_products</source>
+                <target xml:lang="en">Set google merchant</target>
+            </trans-unit>
+            <trans-unit id="116">
+                <source>q_client_soft_howto_favato</source>
+                <target xml:lang="en">Configure favato</target>
+            </trans-unit>
+            <trans-unit id="117">
+                <source>q_client_soft_howto_sales_manago</source>
+                <target xml:lang="en">Configure salesmanago</target>
+            </trans-unit>
+            <trans-unit id="118">
+                <source>q_client_soft_howto_feedback</source>
+                <target xml:lang="en">Configure integrated feedback</target>
+            </trans-unit>
+            <trans-unit id="119">
+                <source>q_client_soft_howto_ftp</source>
+                <target xml:lang="en">Set FTP</target>
+            </trans-unit>
+            <trans-unit id="120">
+                <source>q_client_soft_howto_appstore</source>
+                <target xml:lang="en">Aplications from appstore</target>
+            </trans-unit>
+            <trans-unit id="121">
+                <source>q_client_soft_howto_api</source>
+                <target xml:lang="en">API</target>
+            </trans-unit>
+            <trans-unit id="122">
+                <source>q_client_soft_howto_no_tag</source>
+                <target xml:lang="en">No tag</target>
+            </trans-unit>
+            <trans-unit id="123">
+                <source>q_client_soft_howto_erp</source>
+                <target xml:lang="en">Integration ERP</target>
+            </trans-unit>
+            <trans-unit id="124">
+                <source>q_client_soft_howto_order</source>
+                <target xml:lang="en">Orders Edit</target>
+            </trans-unit>
+            <trans-unit id="125">
+                <source>q_client_soft_howto_shopermanager</source>
+                <target xml:lang="en">Shopermanager</target>
+            </trans-unit>
+            <trans-unit id="126">
+                <source>q_client_soft_howto_shoper_pay</source>
+                <target xml:lang="en">Add shoper pay</target>
+            </trans-unit>
+            <trans-unit id="127">
+                <source>q_client_soft_howto_search</source>
+                <target xml:lang="en">Serach in admin / front - filters</target>
+            </trans-unit>
+            <trans-unit id="128">
+                <source>q_client_soft_lt_howto_change_domain</source>
+                <target xml:lang="en">LT domain change</target>
+            </trans-unit>
+            <trans-unit id="129">
+                <source>q_client_soft_lt_howto_move_soft</source>
+                <target xml:lang="en">LT move soft</target>
+            </trans-unit>
+            <trans-unit id="130">
+                <source>q_client_soft_lt_howto_update</source>
+                <target xml:lang="en">LT update</target>
+            </trans-unit>
+            <trans-unit id="131">
+                <source>q_client_soft_lt_howto_install</source>
+                <target xml:lang="en">LT install</target>
+            </trans-unit>
+            <trans-unit id="132">
+                <source>q_client_soft_lt_howto_serwer</source>
+                <target xml:lang="en">LT configure serwer</target>
+            </trans-unit>
+            <trans-unit id="133">
+                <source>q_client_soft_lt_howto_cron</source>
+                <target xml:lang="en">LT set cron</target>
+            </trans-unit>
+            <trans-unit id="134">
+                <source>q_client_soft_lt_howto_hostingplus</source>
+                <target xml:lang="en">LT configure hostingplus</target>
+            </trans-unit>
+            <trans-unit id="135">
+                <source>q_prospect_price</source>
+                <target xml:lang="en">Price questions</target>
+            </trans-unit>
+            <trans-unit id="136">
+                <source>q_prospect_deal</source>
+                <target xml:lang="en">Terms of the contract</target>
+            </trans-unit>
+            <trans-unit id="137">
+                <source>q_prospect_migration</source>
+                <target xml:lang="en">Migration from another platform</target>
+            </trans-unit>
+            <trans-unit id="138">
+                <source>q_prospect_import</source>
+                <target xml:lang="en">Mass data import</target>
+            </trans-unit>
+            <trans-unit id="139">
+                <source>q_prospect_hosting_install</source>
+                <target xml:lang="en">Installation on the server</target>
+            </trans-unit>
+            <trans-unit id="140">
+                <source>q_prospect_hosting_demo</source>
+                <target xml:lang="en">Need testing the program</target>
+            </trans-unit>
+            <trans-unit id="141">
+                <source>q_prospect_layout_change</source>
+                <target xml:lang="en">Configure layout</target>
+            </trans-unit>
+            <trans-unit id="142">
+                <source>q_prospect_payment</source>
+                <target xml:lang="en">Payment method</target>
+            </trans-unit>
+            <trans-unit id="143">
+                <source>q_prospect_shipiing</source>
+                <target xml:lang="en">Shipping method</target>
+            </trans-unit>
+            <trans-unit id="144">
+                <source>q_prospect_invoice</source>
+                <target xml:lang="en">Invoice generate / programs</target>
+            </trans-unit>
+            <trans-unit id="145">
+                <source>q_prospect_appstore</source>
+                <target xml:lang="en">Appstore questions</target>
+            </trans-unit>
+            <trans-unit id="146">
+                <source>q_prospect_howto_start</source>
+                <target xml:lang="en">Where to start</target>
+            </trans-unit>
+            <trans-unit id="147">
+                <source>q_prospect_allegro</source>
+                <target xml:lang="en">Integration with allegro</target>
+            </trans-unit>
+            <trans-unit id="148">
+                <source>q_prospect_soft_howto_domain</source>
+                <target xml:lang="en">Buy/add domain or redirect </target>
+            </trans-unit>
+            <trans-unit id="149">
+                <source>q_prospect_soft_howto_mail</source>
+                <target xml:lang="en">Set mails / Webmail / Client mail</target>
+            </trans-unit>
+            <trans-unit id="150">
+                <source>q_prospect_soft_howto_product</source>
+                <target xml:lang="en">Create products</target>
+            </trans-unit>
+            <trans-unit id="151">
+                <source>q_prospect_soft_howto_category</source>
+                <target xml:lang="en">Create category</target>
+            </trans-unit>
+            <trans-unit id="152">
+                <source>q_prospect_soft_howto_seo</source>
+                <target xml:lang="en">Seo / metadata / sitemap</target>
+            </trans-unit>
+            <trans-unit id="153">
+                <source>q_prospect_prestashop</source>
+                <target xml:lang="en">Migration from prestashop</target>
+            </trans-unit>
+            <trans-unit id="154">
+                <source>q_prospect_redcart</source>
+                <target xml:lang="en">Migration from redcart</target>
+            </trans-unit>
+            <trans-unit id="155">
+                <source>q_prospect_opencart</source>
+                <target xml:lang="en">Migration from opencart</target>
+            </trans-unit>
+            <trans-unit id="156">
+                <source>q_prospect_clickshop</source>
+                <target xml:lang="en">Migration from clickshop</target>
+            </trans-unit>
+            <trans-unit id="157">
+                <source>q_prospect_skyshop</source>
+                <target xml:lang="en">Migration from skyshop</target>
+            </trans-unit>
+            <trans-unit id="158">
+                <source>q_prospect_magento</source>
+                <target xml:lang="en">Migration from magento</target>
+            </trans-unit>
+            <trans-unit id="159">
+                <source>q_prospect_az</source>
+                <target xml:lang="en">Migration from az</target>
+            </trans-unit>
+            <trans-unit id="160">
+                <source>q_prospect_selly</source>
+                <target xml:lang="en">Migration from selly</target>
+            </trans-unit>
+            <trans-unit id="161">
+                <source>q_prospect_shoplo</source>
+                <target xml:lang="en">Migration from shoplo</target>
+            </trans-unit>
+            <trans-unit id="162">
+                <source>q_prospect_invoice_why</source>
+                <target xml:lang="en">Why did i get the invoice</target>
+            </trans-unit>
+            <trans-unit id="163">
+                <source>q_prospect_promotion_price</source>
+                <target xml:lang="en">Amount on the invoice</target>
+            </trans-unit>
+            <trans-unit id="164">
+                <source>q_prospect_no_tag</source>
+                <target xml:lang="en">No tag</target>
+            </trans-unit>
+            <trans-unit id="165">
+                <source>q_prospect_dropship</source>
+                <target xml:lang="en">Questions about dropshiping</target>
+            </trans-unit>
+            <trans-unit id="166">
+                <source>q_prospect_login</source>
+                <target xml:lang="en">Login problem</target>
+            </trans-unit>
+            <trans-unit id="167">
+                <source>q_reseller_deal</source>
+                <target xml:lang="en">Terms of the contract</target>
+            </trans-unit>
+            <trans-unit id="168">
+                <source>q_reseller_install</source>
+                <target xml:lang="en">Installation on the server</target>
+            </trans-unit>
+            <trans-unit id="169">
+                <source>q_reseller_domain_change</source>
+                <target xml:lang="en">Add domain or redirect </target>
+            </trans-unit>
+            <trans-unit id="170">
+                <source>q_reseller_appstore</source>
+                <target xml:lang="en">Aplications from appstore</target>
+            </trans-unit>
+            <trans-unit id="171">
+                <source>q_reseller_dev</source>
+                <target xml:lang="en">Code edit problem</target>
+            </trans-unit>
+            <trans-unit id="172">
+                <source>q_reseller_no_tag</source>
+                <target xml:lang="en">No tag</target>
+            </trans-unit>
+            <trans-unit id="173">
+                <source>q_reseller_update</source>
+                <target xml:lang="en">Update problem</target>
+            </trans-unit>
+            <trans-unit id="174">
+                <source>q_client_resignation</source>
+                <target xml:lang="en">Resignation</target>
+            </trans-unit>
+            <trans-unit id="175">
+                <source>q_client_resignation</source>
+                <target xml:lang="en">Resignation</target>
+            </trans-unit>
+            <trans-unit id="176">
+                <source>q_prospect_configuration</source>
+                <target xml:lang="en">Available functions</target>
+            </trans-unit>
+            <trans-unit id="177">
+                <source>Agent</source>
+                <target xml:lang="en">Agent</target>
+            </trans-unit>
+            <trans-unit id="178">
+                <source>Team</source>
+                <target xml:lang="en">Team</target>
+            </trans-unit>
+            <trans-unit id="179">
+                <source>Source</source>
+                <target xml:lang="en">Source</target>
+            </trans-unit>
+            <trans-unit id="180">
+                <source>Category</source>
+                <target xml:lang="en">Category</target>
+            </trans-unit>
+            <trans-unit id="181">
+                <source>Tag</source>
+                <target xml:lang="en">Tag</target>
+            </trans-unit>
+            <trans-unit id="182">
+                <source>From</source>
+                <target xml:lang="en">From</target>
+            </trans-unit>
+            <trans-unit id="183">
+                <source>To</source>
+                <target xml:lang="en">To</target>
+            </trans-unit>
+            <trans-unit id="184">
+                <source>Id</source>
+                <target xml:lang="en">Id</target>
+            </trans-unit>
+            <trans-unit id="185">
+                <source>Date</source>
+                <target xml:lang="en">Date</target>
+            </trans-unit>
+            <trans-unit id="186">
+                <source>Ticket id or Connection id</source>
+                <target xml:lang="en">Ticket id/Connection id</target>
+            </trans-unit>
+            <trans-unit id="187">
+                <source>All</source>
+                <target xml:lang="en">All</target>
+            </trans-unit>
+            <trans-unit id="188">
+                <source>Tag report</source>
+                <target xml:lang="en">Tag report</target>
+            </trans-unit>
+            <trans-unit id="189">
+                <source>Group</source>
+                <target xml:lang="en">Group</target>
+            </trans-unit>
+            <trans-unit id="190">
+                <source>by Days</source>
+                <target xml:lang="en">by days</target>
+            </trans-unit>
+            <trans-unit id="191">
+                <source>by Weeks</source>
+                <target xml:lang="en">by weeks</target>
+            </trans-unit>
+            <trans-unit id="192">
+                <source>by Months</source>
+                <target xml:lang="en">by months</target>
+            </trans-unit>
+            <trans-unit id="193">
+                <source>by Years</source>
+                <target xml:lang="en">by years</target>
+            </trans-unit>
+            <trans-unit id="194">
+                <source>All.agents</source>
+                <target xml:lang="en">All</target>
+            </trans-unit>
+            <trans-unit id="196">
+                <source>Total tags (filter: </source>
+                <target xml:lang="en">Total tags (filter: </target>
+            </trans-unit>
+            <trans-unit id="197">
+                <source>Tags Amount</source>
+                <target xml:lang="en">Tags Amount</target>
+            </trans-unit>
+            <trans-unit id="198">
+                <source>time</source>
+                <target xml:lang="en">time</target>
+            </trans-unit>
+            <trans-unit id="199">
+                <source>decimal</source>
+                <target xml:lang="en"> </target>
+            </trans-unit>
+            <trans-unit id="200">
+                <source>emptyTable</source>
+                <target xml:lang="en">No data available in table</target>
+            </trans-unit>
+            <trans-unit id="201">
+                <source>info</source>
+                <target xml:lang="en">Showing _START_ to _END_ of _TOTAL_ entries</target>
+            </trans-unit>
+            <trans-unit id="202">
+                <source>infoEmpty</source>
+                <target xml:lang="en">Showing 0 to 0 of 0 entries</target>
+            </trans-unit>
+            <trans-unit id="203">
+                <source>infoFiltered</source>
+                <target xml:lang="en">(filtered from _MAX_ total entries)</target>
+            </trans-unit>
+            <trans-unit id="204">
+                <source>infoPostFix</source>
+                <target xml:lang="en"> </target>
+            </trans-unit>
+            <trans-unit id="205">
+                <source>thousands</source>
+                <target xml:lang="en">,</target>
+            </trans-unit>
+            <trans-unit id="206">
+                <source>lengthMenu</source>
+                <target xml:lang="en">Show _MENU_ entries</target>
+            </trans-unit>
+            <trans-unit id="207">
+                <source>loadingRecords</source>
+                <target xml:lang="en">Loading...</target>
+            </trans-unit>
+            <trans-unit id="208">
+                <source>processing</source>
+                <target xml:lang="en">Processing...</target>
+            </trans-unit>
+            <trans-unit id="209">
+                <source>search</source>
+                <target xml:lang="en">Search:</target>
+            </trans-unit>
+            <trans-unit id="210">
+                <source>zeroRecords</source>
+                <target xml:lang="en">No matching records found</target>
+            </trans-unit>
+            <trans-unit id="211">
+                <source>first</source>
+                <target xml:lang="en">First</target>
+            </trans-unit>
+            <trans-unit id="212">
+                <source>last</source>
+                <target xml:lang="en">Last</target>
+            </trans-unit>
+            <trans-unit id="213">
+                <source>next</source>
+                <target xml:lang="en">Next</target>
+            </trans-unit>
+            <trans-unit id="214">
+                <source>previous</source>
+                <target xml:lang="en">Previous</target>
+            </trans-unit>
+            <trans-unit id="215">
+                <source>sortAscending</source>
+                <target xml:lang="en">: activate to sort column ascending</target>
+            </trans-unit>
+            <trans-unit id="216">
+                <source>sortDescending</source>
+                <target xml:lang="en">: activate to sort column descending</target>
+            </trans-unit>
+            <trans-unit id="217">
+                <source>select.all</source>
+                <target xml:lang="en">Select all</target>
+            </trans-unit>
+            <trans-unit id="218">
+                <source>deselect.all</source>
+                <target xml:lang="en">Deselect all</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

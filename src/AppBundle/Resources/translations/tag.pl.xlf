@@ -1,0 +1,871 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file source-language="pl" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>menu.submit</source>
+                <target xml:lang="pl">Filtruj</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>no.tags.filter</source>
+                <target xml:lang="pl">Brak tagów dla obecnie wybranych filtrów</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Problem</source>
+                <target xml:lang="pl">Problemy</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Formal</source>
+                <target xml:lang="pl">Formalne</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>HowTo</source>
+                <target xml:lang="pl">Jak to zrobić</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Prospect</source>
+                <target xml:lang="pl">Perspektywy</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Reseller</source>
+                <target xml:lang="pl">Reseller</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Kayako</source>
+                <target xml:lang="pl">Kayako</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Thulium</source>
+                <target xml:lang="pl">Thulium</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Whmcs</source>
+                <target xml:lang="pl">Whmcs</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Shoper</source>
+                <target xml:lang="pl">Shoper</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Zencommerce.in</source>
+                <target xml:lang="pl">Zencommerce.in</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Zencommerce.com</source>
+                <target xml:lang="pl">Zencommerce.com</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>q_client_soft_problem_domain</source>
+                <target xml:lang="pl">Domena</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>q_client_soft_problem_mail</source>
+                <target xml:lang="pl">Poczta</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>q_client_soft_problem_product</source>
+                <target xml:lang="pl">Produkt / dodawanie / edycja</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>q_client_soft_problem_category</source>
+                <target xml:lang="pl">Kategoria / dodawanie / edycja</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>q_client_soft_problem_csv</source>
+                <target xml:lang="pl">Masowa wymiana danych CSV</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>q_client_soft_problem_options</source>
+                <target xml:lang="pl">Warianty</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>q_client_soft_problem_attributes</source>
+                <target xml:lang="pl">Atrybuty</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>q_client_soft_problem_layout</source>
+                <target xml:lang="pl">Wygląd - podstawowy</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>q_client_soft_problem_css_html</source>
+                <target xml:lang="pl">Wygląd - zaawansowany</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>q_client_soft_problem_info_page</source>
+                <target xml:lang="pl">Strony informacyjne</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>q_client_soft_problem_shipping</source>
+                <target xml:lang="pl">Dostawy</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>q_client_soft_problem_payment</source>
+                <target xml:lang="pl">Płatności</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>q_client_soft_problem_language</source>
+                <target xml:lang="pl">Inna wersja językowa</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>q_client_soft_problem_currency</source>
+                <target xml:lang="pl">Waluty</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>q_client_soft_problem_phrases</source>
+                <target xml:lang="pl">Edycja fraz</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>q_client_soft_problem_unit</source>
+                <target xml:lang="pl">Jednostki miar</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>q_client_soft_problem_invoice</source>
+                <target xml:lang="pl">Faktury</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>q_client_soft_problem_auto_mail</source>
+                <target xml:lang="pl">Maile Automatyczne</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>q_client_soft_problem_discount</source>
+                <target xml:lang="pl">Rabaty</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>q_client_soft_problem_points</source>
+                <target xml:lang="pl">Punkty lojalnościowe</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>q_client_soft_problem_newsletter</source>
+                <target xml:lang="pl">Newsletter</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>q_client_soft_problem_blog</source>
+                <target xml:lang="pl">Blog</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>q_client_soft_problem_seo</source>
+                <target xml:lang="pl">Pozycjonowanie / metadane / sitemap</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>q_client_soft_problem_google</source>
+                <target xml:lang="pl">Dodanie strony do google</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>q_client_soft_problem_analytics</source>
+                <target xml:lang="pl">Analytics</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>q_client_soft_problem_allegro</source>
+                <target xml:lang="pl">Allegro</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>q_client_soft_problem_facebook</source>
+                <target xml:lang="pl">Facebook - lubie to</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>q_client_soft_problem_comparison_site</source>
+                <target xml:lang="pl">Porównywarki Cen</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>q_client_soft_problem_google_products</source>
+                <target xml:lang="pl">Google Shipping</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>q_client_soft_problem_favato</source>
+                <target xml:lang="pl">Favato</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>q_client_soft_problem_sales_manago</source>
+                <target xml:lang="pl">Sales Manago</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>q_client_soft_problem_feedback</source>
+                <target xml:lang="pl">Opineo / Zaufane Opinie</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>q_client_soft_problem_ftp</source>
+                <target xml:lang="pl">Dodawanie własnych plików</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>q_client_soft_problem_appstore</source>
+                <target xml:lang="pl">Aplikacje</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>q_client_soft_problem_api</source>
+                <target xml:lang="pl">API</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>q_client_soft_problem_no_tag</source>
+                <target xml:lang="pl">Brak odpowiedniego Tag-u</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>q_client_soft_problem_erp</source>
+                <target xml:lang="pl">Integracje z systemami ERP</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>q_client_soft_problem_order</source>
+                <target xml:lang="pl">Zamówienia / edycja / dodawanie</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>q_client_soft_problem_ssl</source>
+                <target xml:lang="pl">Problem z SSL na stronie</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>q_client_soft_problem_monit</source>
+                <target xml:lang="pl">Monit Zgłoszenia</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>q_client_soft_cache</source>
+                <target xml:lang="pl">problem z cache / czyszczenie</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>q_client_soft_problem_shopermanager</source>
+                <target xml:lang="pl">Shoper manager</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>q_client_soft_problem_shoper_pay</source>
+                <target xml:lang="pl">Płatności Shoper</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>q_client_soft_problem_search</source>
+                <target xml:lang="pl">wyszukiwarka front / admin</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>q_client_soft_problem_tpl_update</source>
+                <target xml:lang="pl">problem z wyglądem po update</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>q_client_soft_problem_login</source>
+                <target xml:lang="pl">Nie mogę zalogowac się do panelu sklepu</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>q_client_soft_lt_problem_change_domain</source>
+                <target xml:lang="pl">Jak zmienić domenę / klucz licencji</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>q_client_soft_lt_problem_move_soft</source>
+                <target xml:lang="pl">Jak przenieść sklep</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>q_client_soft_lt_problem_update</source>
+                <target xml:lang="pl">Aktualizacja</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>q_client_soft_lt_problem_install</source>
+                <target xml:lang="pl">Instalacja</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>q_client_soft_lt_dev</source>
+                <target xml:lang="pl">programowanie / zmiany / jak zrobić</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>q_client_soft_lt_problem_error</source>
+                <target xml:lang="pl">Nie działa sklep - błąd apliakcji itp</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>q_client_soft_lt_problem_cron</source>
+                <target xml:lang="pl">CRON - zadania cykliczne</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>q_client_soft_lt_problem_hostingplus</source>
+                <target xml:lang="pl">Nasz hosting</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>q_client_formal_invoice_need</source>
+                <target xml:lang="pl">Mam tylko proformę potrzebuję F-Vat</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>q_client_formal_invoice_change</source>
+                <target xml:lang="pl">Korekta / nota korygująca / duplikat faktury</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>q_client_formal_data_change</source>
+                <target xml:lang="pl">Aktualizacja / zmiana danych</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>q_client_formal_upsell</source>
+                <target xml:lang="pl">Zakup dodatkowych usług (grafika, SSL, adwords, re...</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>q_client_formal_upsell_continuation</source>
+                <target xml:lang="pl">przedłużenie dodatkowych usług (ssl, regulamin, ap...</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>q_client_formal_continuation</source>
+                <target xml:lang="pl">Chcę przedłużyc licencję</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>q_client_formal_giodo</source>
+                <target xml:lang="pl">Jak zgłosic zbiór do GIODO / co to jest GIODO</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>q_client_formal_no_tag</source>
+                <target xml:lang="pl">Brak odpowiedniego tagu</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>q_client_formal_panel</source>
+                <target xml:lang="pl">Panel klienta: panel.shoper.pl</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>q_client_formal_payment_confirm</source>
+                <target xml:lang="pl">Potwierdzenie wpłaty od klienta</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>q_client_formal_home</source>
+                <target xml:lang="pl">Przejście do home.pl ze względu na cenę</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>q_client_formal_feature</source>
+                <target xml:lang="pl">Feature / Change / - pytanie o funkcję której nie ...</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>q_client_formal_buyer</source>
+                <target xml:lang="pl">Kontakt klienta sklepu w sparwie złożonego zamówie...</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>q_client_formal_swich</source>
+                <target xml:lang="pl">Przełączenie rozmowy do innej osoby / rozłączenie ...</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>q_client_formal_backup</source>
+                <target xml:lang="pl">Klient prosi o przywrócenie sklepu z backupu</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>q_client_formal_deal</source>
+                <target xml:lang="pl">warunki umowy / ceny / okres obowiązywania /wypowi...</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>q_client_soft_ssl</source>
+                <target xml:lang="pl">Instalacja SSL / wysłanie potwierdzenia</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>q_client_orders_promotion</source>
+                <target xml:lang="pl">Kontakt w sprawie oferty sklep z zamówieniami</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>q_client_soft_howto_domain</source>
+                <target xml:lang="pl">Domena (dodanie / zmiana)</target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>q_client_soft_howto_mail</source>
+                <target xml:lang="pl">Poczta - adresy e-mail</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>q_client_soft_howto_product</source>
+                <target xml:lang="pl">Produkt / dodawanie / edycja</target>
+            </trans-unit>
+            <trans-unit id="90">
+                <source>q_client_soft_howto_category</source>
+                <target xml:lang="pl">Kategoria / dodawanie / edycja</target>
+            </trans-unit>
+            <trans-unit id="91">
+                <source>q_client_soft_howto_csv</source>
+                <target xml:lang="pl">Masowa wymiana danych CSV</target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>q_client_soft_howto_options</source>
+                <target xml:lang="pl">Warianty</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>q_client_soft_howto_attributes</source>
+                <target xml:lang="pl">Atrybuty</target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>q_client_soft_howto_layout</source>
+                <target xml:lang="pl">Wygląd - podstawowy</target>
+            </trans-unit>
+            <trans-unit id="95">
+                <source>q_client_soft_howto_css_html</source>
+                <target xml:lang="pl">Wygląd - zaawansowany</target>
+            </trans-unit>
+            <trans-unit id="96">
+                <source>q_client_soft_howto_info_page</source>
+                <target xml:lang="pl">Strony informacyjne</target>
+            </trans-unit>
+            <trans-unit id="97">
+                <source>q_client_soft_howto_shipping</source>
+                <target xml:lang="pl">Dostawy</target>
+            </trans-unit>
+            <trans-unit id="98">
+                <source>q_client_soft_howto_payment</source>
+                <target xml:lang="pl">Płatności</target>
+            </trans-unit>
+            <trans-unit id="99">
+                <source>q_client_soft_howto_language</source>
+                <target xml:lang="pl">Inna wersja językowa</target>
+            </trans-unit>
+            <trans-unit id="100">
+                <source>q_client_soft_howto_currency</source>
+                <target xml:lang="pl">Waluty</target>
+            </trans-unit>
+            <trans-unit id="101">
+                <source>q_client_soft_howto_phrases</source>
+                <target xml:lang="pl">Edycja fraz językowych</target>
+            </trans-unit>
+            <trans-unit id="102">
+                <source>q_client_soft_howto_unit</source>
+                <target xml:lang="pl">Jednostki miar</target>
+            </trans-unit>
+            <trans-unit id="103">
+                <source>q_client_soft_howto_invoice</source>
+                <target xml:lang="pl">Faktury - jak generować</target>
+            </trans-unit>
+            <trans-unit id="104">
+                <source>q_client_soft_howto_auto_mail</source>
+                <target xml:lang="pl">Maile Automatyczne</target>
+            </trans-unit>
+            <trans-unit id="105">
+                <source>q_client_soft_howto_discount</source>
+                <target xml:lang="pl">Rabaty</target>
+            </trans-unit>
+            <trans-unit id="106">
+                <source>q_client_soft_howto_points</source>
+                <target xml:lang="pl">Punkty lojalnościowe</target>
+            </trans-unit>
+            <trans-unit id="107">
+                <source>q_client_soft_howto_newsletter</source>
+                <target xml:lang="pl">Newsletter</target>
+            </trans-unit>
+            <trans-unit id="108">
+                <source>q_client_soft_howto_blog</source>
+                <target xml:lang="pl">Blog</target>
+            </trans-unit>
+            <trans-unit id="109">
+                <source>q_client_soft_howto_seo</source>
+                <target xml:lang="pl">Pozycjonowanie / metadane / sitemap</target>
+            </trans-unit>
+            <trans-unit id="110">
+                <source>q_client_soft_howto_google</source>
+                <target xml:lang="pl">Dodanie strony do google</target>
+            </trans-unit>
+            <trans-unit id="111">
+                <source>q_client_soft_howto_analytics</source>
+                <target xml:lang="pl">Analytics</target>
+            </trans-unit>
+            <trans-unit id="112">
+                <source>q_client_soft_howto_allegro</source>
+                <target xml:lang="pl">Allegro</target>
+            </trans-unit>
+            <trans-unit id="113">
+                <source>q_client_soft_howto_facebook</source>
+                <target xml:lang="pl">Facebook - lubie to</target>
+            </trans-unit>
+            <trans-unit id="114">
+                <source>q_client_soft_howto_comparison_site</source>
+                <target xml:lang="pl">Porównywarki Cen</target>
+            </trans-unit>
+            <trans-unit id="115">
+                <source>q_client_soft_howto_google_products</source>
+                <target xml:lang="pl">Google Shipping</target>
+            </trans-unit>
+            <trans-unit id="116">
+                <source>q_client_soft_howto_favato</source>
+                <target xml:lang="pl">Favato</target>
+            </trans-unit>
+            <trans-unit id="117">
+                <source>q_client_soft_howto_sales_manago</source>
+                <target xml:lang="pl">Sales Manago</target>
+            </trans-unit>
+            <trans-unit id="118">
+                <source>q_client_soft_howto_feedback</source>
+                <target xml:lang="pl">Opineo / Zaufane Opinie</target>
+            </trans-unit>
+            <trans-unit id="119">
+                <source>q_client_soft_howto_ftp</source>
+                <target xml:lang="pl">Dodawanie własnych plików</target>
+            </trans-unit>
+            <trans-unit id="120">
+                <source>q_client_soft_howto_appstore</source>
+                <target xml:lang="pl">Aplikacje</target>
+            </trans-unit>
+            <trans-unit id="121">
+                <source>q_client_soft_howto_api</source>
+                <target xml:lang="pl">API</target>
+            </trans-unit>
+            <trans-unit id="122">
+                <source>q_client_soft_howto_no_tag</source>
+                <target xml:lang="pl">Brak odpowiedniego Tag-u</target>
+            </trans-unit>
+            <trans-unit id="123">
+                <source>q_client_soft_howto_erp</source>
+                <target xml:lang="pl">Integracje z systemami ERP</target>
+            </trans-unit>
+            <trans-unit id="124">
+                <source>q_client_soft_howto_order</source>
+                <target xml:lang="pl">Zamówienia / edycja / dodawanie</target>
+            </trans-unit>
+            <trans-unit id="125">
+                <source>q_client_soft_howto_shopermanager</source>
+                <target xml:lang="pl">Shoper manager</target>
+            </trans-unit>
+            <trans-unit id="126">
+                <source>q_client_soft_howto_shoper_pay</source>
+                <target xml:lang="pl">Płatności Shoper</target>
+            </trans-unit>
+            <trans-unit id="127">
+                <source>q_client_soft_howto_search</source>
+                <target xml:lang="pl">wyszukiwarka front / admin</target>
+            </trans-unit>
+            <trans-unit id="128">
+                <source>q_client_soft_lt_howto_change_domain</source>
+                <target xml:lang="pl">Jak zmienić domenę / klucz licencji</target>
+            </trans-unit>
+            <trans-unit id="129">
+                <source>q_client_soft_lt_howto_move_soft</source>
+                <target xml:lang="pl">Jak przenieść /zmigrować sklep</target>
+            </trans-unit>
+            <trans-unit id="130">
+                <source>q_client_soft_lt_howto_update</source>
+                <target xml:lang="pl">Aktualizacja</target>
+            </trans-unit>
+            <trans-unit id="131">
+                <source>q_client_soft_lt_howto_install</source>
+                <target xml:lang="pl">Instalacja</target>
+            </trans-unit>
+            <trans-unit id="132">
+                <source>q_client_soft_lt_howto_serwer</source>
+                <target xml:lang="pl">Wymagania serwera do instalacji</target>
+            </trans-unit>
+            <trans-unit id="133">
+                <source>q_client_soft_lt_howto_cron</source>
+                <target xml:lang="pl">CRON - zadania cykliczne</target>
+            </trans-unit>
+            <trans-unit id="134">
+                <source>q_client_soft_lt_howto_hostingplus</source>
+                <target xml:lang="pl">Nasz hosting</target>
+            </trans-unit>
+            <trans-unit id="135">
+                <source>q_prospect_price</source>
+                <target xml:lang="pl">Licencja warunki cenowe</target>
+            </trans-unit>
+            <trans-unit id="136">
+                <source>q_prospect_deal</source>
+                <target xml:lang="pl">Licencja warunki umowy / pytanie o ofertę</target>
+            </trans-unit>
+            <trans-unit id="137">
+                <source>q_prospect_migration</source>
+                <target xml:lang="pl">Przeniesienie z obecnego oprogramowania do nas</target>
+            </trans-unit>
+            <trans-unit id="138">
+                <source>q_prospect_import</source>
+                <target xml:lang="pl">Import produktów z csv / xml</target>
+            </trans-unit>
+            <trans-unit id="139">
+                <source>q_prospect_hosting_install</source>
+                <target xml:lang="pl">Czy trzeba instalowac oprogramownaie / kwestie tec...</target>
+            </trans-unit>
+            <trans-unit id="140">
+                <source>q_prospect_hosting_demo</source>
+                <target xml:lang="pl">Jak zobaczyć / przetestować program</target>
+            </trans-unit>
+            <trans-unit id="141">
+                <source>q_prospect_layout_change</source>
+                <target xml:lang="pl">Czy mogę dostosowac wygląd</target>
+            </trans-unit>
+            <trans-unit id="142">
+                <source>q_prospect_payment</source>
+                <target xml:lang="pl">Jakie są zintegrowane płatności</target>
+            </trans-unit>
+            <trans-unit id="143">
+                <source>q_prospect_shipiing</source>
+                <target xml:lang="pl">Jakie są zintegrowane dostawy</target>
+            </trans-unit>
+            <trans-unit id="144">
+                <source>q_prospect_invoice</source>
+                <target xml:lang="pl">Jakie są zintegrowane programy do faktur</target>
+            </trans-unit>
+            <trans-unit id="145">
+                <source>q_prospect_appstore</source>
+                <target xml:lang="pl">Pytanie o aplikacjie</target>
+            </trans-unit>
+            <trans-unit id="146">
+                <source>q_prospect_howto_start</source>
+                <target xml:lang="pl">Jak uruchomoć sklep</target>
+            </trans-unit>
+            <trans-unit id="147">
+                <source>q_prospect_allegro</source>
+                <target xml:lang="pl">Allegro / czy jest / jak działa</target>
+            </trans-unit>
+            <trans-unit id="148">
+                <source>q_prospect_soft_howto_domain</source>
+                <target xml:lang="pl">Domena</target>
+            </trans-unit>
+            <trans-unit id="149">
+                <source>q_prospect_soft_howto_mail</source>
+                <target xml:lang="pl">Poczta</target>
+            </trans-unit>
+            <trans-unit id="150">
+                <source>q_prospect_soft_howto_product</source>
+                <target xml:lang="pl">Produkt / dodawanie / edycja</target>
+            </trans-unit>
+            <trans-unit id="151">
+                <source>q_prospect_soft_howto_category</source>
+                <target xml:lang="pl">Kategoria / dodawanie / edycja</target>
+            </trans-unit>
+            <trans-unit id="152">
+                <source>q_prospect_soft_howto_seo</source>
+                <target xml:lang="pl">Pozycjonowanie</target>
+            </trans-unit>
+            <trans-unit id="153">
+                <source>q_prospect_prestashop</source>
+                <target xml:lang="pl">Przeniesienie z prestashop</target>
+            </trans-unit>
+            <trans-unit id="154">
+                <source>q_prospect_redcart</source>
+                <target xml:lang="pl">Przeniesienie z redcart</target>
+            </trans-unit>
+            <trans-unit id="155">
+                <source>q_prospect_opencart</source>
+                <target xml:lang="pl">Przeniesienie z opencart</target>
+            </trans-unit>
+            <trans-unit id="156">
+                <source>q_prospect_clickshop</source>
+                <target xml:lang="pl">Przeniesienie z clickshop</target>
+            </trans-unit>
+            <trans-unit id="157">
+                <source>q_prospect_skyshop</source>
+                <target xml:lang="pl">Przeniesienie z skyshop</target>
+            </trans-unit>
+            <trans-unit id="158">
+                <source>q_prospect_magento</source>
+                <target xml:lang="pl">Przeniesienie z Magento</target>
+            </trans-unit>
+            <trans-unit id="159">
+                <source>q_prospect_az</source>
+                <target xml:lang="pl">Przeniesienie z AZ</target>
+            </trans-unit>
+            <trans-unit id="160">
+                <source>q_prospect_selly</source>
+                <target xml:lang="pl">Przeniesienie z Selly</target>
+            </trans-unit>
+            <trans-unit id="161">
+                <source>q_prospect_shoplo</source>
+                <target xml:lang="pl">Przeniesienie z shoplo</target>
+            </trans-unit>
+            <trans-unit id="162">
+                <source>q_prospect_invoice_why</source>
+                <target xml:lang="pl">Chciałem potestowac, a dostałem fakturę</target>
+            </trans-unit>
+            <trans-unit id="163">
+                <source>q_prospect_promotion_price</source>
+                <target xml:lang="pl">Błędna kwota na proformie - nieadekwatna do ceny p...</target>
+            </trans-unit>
+            <trans-unit id="164">
+                <source>q_prospect_no_tag</source>
+                <target xml:lang="pl">Brak odpowiedniego Tag-u</target>
+            </trans-unit>
+            <trans-unit id="165">
+                <source>q_prospect_dropship</source>
+                <target xml:lang="pl">Dropshiping / integracje z hurtowaniami</target>
+            </trans-unit>
+            <trans-unit id="166">
+                <source>q_prospect_login</source>
+                <target xml:lang="pl">Nie mogę zalogowac się do panelu sklepu</target>
+            </trans-unit>
+            <trans-unit id="167">
+                <source>q_reseller_deal</source>
+                <target xml:lang="pl">Licencja warunki współpracy</target>
+            </trans-unit>
+            <trans-unit id="168">
+                <source>q_reseller_install</source>
+                <target xml:lang="pl">Instalacja LT</target>
+            </trans-unit>
+            <trans-unit id="169">
+                <source>q_reseller_domain_change</source>
+                <target xml:lang="pl">Zmiana domeny</target>
+            </trans-unit>
+            <trans-unit id="170">
+                <source>q_reseller_appstore</source>
+                <target xml:lang="pl">Aplikacje</target>
+            </trans-unit>
+            <trans-unit id="171">
+                <source>q_reseller_dev</source>
+                <target xml:lang="pl">Pytania o zaawansowaną edycję</target>
+            </trans-unit>
+            <trans-unit id="172">
+                <source>q_reseller_no_tag</source>
+                <target xml:lang="pl">Brak odpowiedniego Tag-u</target>
+            </trans-unit>
+            <trans-unit id="173">
+                <source>q_reseller_update</source>
+                <target xml:lang="pl">Aktualizacja oprogramownaia</target>
+            </trans-unit>
+            <trans-unit id="174">
+                <source>q_client_resignation</source>
+                <target xml:lang="pl">Klient informuje ze rezygnuje z usług</target>
+            </trans-unit>
+            <trans-unit id="175">
+                <source>q_client_resignation</source>
+                <target xml:lang="pl">Klient informuje ze rezygnuje z usług</target>
+            </trans-unit>
+            <trans-unit id="176">
+                <source>q_prospect_configuration</source>
+                <target xml:lang="pl">Pytania dotyczące możliwości oprogramowania</target>
+            </trans-unit>
+            <trans-unit id="177">
+                <source>Agent</source>
+                <target xml:lang="pl">Pracownik</target>
+            </trans-unit>
+            <trans-unit id="178">
+                <source>Team</source>
+                <target xml:lang="pl">Zespół</target>
+            </trans-unit>
+            <trans-unit id="179">
+                <source>Source</source>
+                <target xml:lang="pl">Źródło</target>
+            </trans-unit>
+            <trans-unit id="180">
+                <source>Category</source>
+                <target xml:lang="pl">Kategoria</target>
+            </trans-unit>
+            <trans-unit id="181">
+                <source>Tag</source>
+                <target xml:lang="pl">Tag</target>
+            </trans-unit>
+            <trans-unit id="182">
+                <source>From</source>
+                <target xml:lang="pl">Od</target>
+            </trans-unit>
+            <trans-unit id="183">
+                <source>To</source>
+                <target xml:lang="pl">Do</target>
+            </trans-unit>
+            <trans-unit id="184">
+                <source>Id</source>
+                <target xml:lang="pl">Id</target>
+            </trans-unit>
+            <trans-unit id="185">
+                <source>Date</source>
+                <target xml:lang="pl">Data</target>
+            </trans-unit>
+            <trans-unit id="186">
+                <source>Ticket id or Connection id</source>
+                <target xml:lang="pl">Ticket id/Connection id</target>
+            </trans-unit>
+            <trans-unit id="187">
+                <source>All</source>
+                <target xml:lang="pl">Wszystkie</target>
+            </trans-unit>
+            <trans-unit id="188">
+                <source>Tag report</source>
+                <target xml:lang="pl">Raport tagów</target>
+            </trans-unit>
+            <trans-unit id="189">
+                <source>Group</source>
+                <target xml:lang="pl">Grupuj</target>
+            </trans-unit>
+            <trans-unit id="190">
+                <source>by Days</source>
+                <target xml:lang="pl">dniami</target>
+            </trans-unit>
+            <trans-unit id="191">
+                <source>by Weeks</source>
+                <target xml:lang="pl">tygodniami</target>
+            </trans-unit>
+            <trans-unit id="192">
+                <source>by Months</source>
+                <target xml:lang="pl">miesiącami</target>
+            </trans-unit>
+            <trans-unit id="193">
+                <source>by Years</source>
+                <target xml:lang="pl">latami</target>
+            </trans-unit>
+            <trans-unit id="194">
+                <source>All.agents</source>
+                <target xml:lang="pl">Wszyscy</target>
+            </trans-unit>
+            <trans-unit id="196">
+                <source>Total tags (filter: </source>
+                <target xml:lang="pl">Całkowita liczba tagów (filtr: </target>
+            </trans-unit>
+            <trans-unit id="197">
+                <source>Tags Amount</source>
+                <target xml:lang="pl">Ilość tagów</target>
+            </trans-unit>
+            <trans-unit id="198">
+                <source>time</source>
+                <target xml:lang="pl">czas</target>
+            </trans-unit>
+            <trans-unit id="199">
+                <source>decimal</source>
+                <target xml:lang="pl"> </target>
+            </trans-unit>
+            <trans-unit id="200">
+                <source>emptyTable</source>
+                <target xml:lang="pl">Brak danych w tabeli</target>
+            </trans-unit>
+            <trans-unit id="201">
+                <source>info</source>
+                <target xml:lang="pl">Widoczne od _START_ do _END_ z _TOTAL_ rekordów</target>
+            </trans-unit>
+            <trans-unit id="202">
+                <source>infoEmpty</source>
+                <target xml:lang="pl">Widoczne od 0 do 0 z 0 rekordów</target>
+            </trans-unit>
+            <trans-unit id="203">
+                <source>infoFiltered</source>
+                <target xml:lang="pl">(odfiltrowane z _MAX_ rekordów)</target>
+            </trans-unit>
+            <trans-unit id="204">
+                <source>infoPostFix</source>
+                <target xml:lang="pl"> </target>
+            </trans-unit>
+            <trans-unit id="205">
+                <source>thousands</source>
+                <target xml:lang="pl">,</target>
+            </trans-unit>
+            <trans-unit id="206">
+                <source>lengthMenu</source>
+                <target xml:lang="pl">Pokaż _MENU_ rekordów</target>
+            </trans-unit>
+            <trans-unit id="207">
+                <source>loadingRecords</source>
+                <target xml:lang="pl">Ładuję...</target>
+            </trans-unit>
+            <trans-unit id="208">
+                <source>processing</source>
+                <target xml:lang="pl">Przetwarzam...</target>
+            </trans-unit>
+            <trans-unit id="209">
+                <source>search</source>
+                <target xml:lang="pl">Szukaj:</target>
+            </trans-unit>
+            <trans-unit id="210">
+                <source>zeroRecords</source>
+                <target xml:lang="pl">Nie znaleziono pasujących rekordów</target>
+            </trans-unit>
+            <trans-unit id="211">
+                <source>first</source>
+                <target xml:lang="pl">Pierwsza</target>
+            </trans-unit>
+            <trans-unit id="212">
+                <source>last</source>
+                <target xml:lang="pl">Ostatnia</target>
+            </trans-unit>
+            <trans-unit id="213">
+                <source>next</source>
+                <target xml:lang="pl">Następna</target>
+            </trans-unit>
+            <trans-unit id="214">
+                <source>previous</source>
+                <target xml:lang="pl">Poprzednia</target>
+            </trans-unit>
+            <trans-unit id="215">
+                <source>sortAscending</source>
+                <target xml:lang="pl">: aktywuj by sortować kolumny rosnąco</target>
+            </trans-unit>
+            <trans-unit id="216">
+                <source>sortDescending</source>
+                <target xml:lang="pl">: aktywuj by sortować kolumny malejąco</target>
+            </trans-unit>
+            <trans-unit id="217">
+                <source>select.all</source>
+                <target xml:lang="pl">Wszystkie</target>
+            </trans-unit>
+            <trans-unit id="218">
+                <source>deselect.all</source>
+                <target xml:lang="pl">Żadne</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

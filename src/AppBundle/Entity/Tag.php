@@ -1,0 +1,188 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: muszkin
+ * Date: 24.05.17
+ * Time: 11:28
+ */
+
+namespace AppBundle\Entity;
+
+use AppBundle\Model\BaseModel;
+use AppBundle\Model\TagInterface;
+use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
+
+/**
+ * Class Tag
+ * @package AppBundle\Entity
+ * @ORM\Entity
+ * @ORM\Table(name="tag")
+ */
+class Tag extends BaseModel implements TagInterface
+{
+    /**
+     * @ORM\Id
+     * @ORM\Column(name="tag_id",type="integer")
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    protected $id;
+
+    /**
+     * @ORM\Column(name="name",type="string",length=255)
+     */
+    protected $name;
+
+    /**
+     * @ORM\Column(name="slug",type="string",length=255)
+     */
+    protected $slug;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Category",inversedBy="tags")
+     * @ORM\JoinColumn(name="category_id",referencedColumnName="category_id")
+     */
+    protected $category;
+
+    /**
+     * @ORM\OneToMany(targetEntity="AppBundle\Entity\TagList",mappedBy="tag")
+     */
+    protected $tag_list;
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->tag_list = new ArrayCollection();
+    }
+
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set name
+     *
+     * @param string $name
+     *
+     * @return Tag
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+
+        return $this;
+    }
+
+    /**
+     * Get name
+     *
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * Set slug
+     *
+     * @param string $slug
+     *
+     * @return Tag
+     */
+    public function setSlug($slug)
+    {
+        $this->slug = $slug;
+
+        return $this;
+    }
+
+    /**
+     * Get slug
+     *
+     * @return string
+     */
+    public function getSlug()
+    {
+        return $this->slug;
+    }
+
+    /**
+     * Set category
+     *
+     * @param Category $category
+     *
+     * @return Tag
+     */
+    public function setCategory(Category $category = null)
+    {
+        $this->category = $category;
+
+        return $this;
+    }
+
+    /**
+     * Get category
+     *
+     * @return Category
+     */
+    public function getCategory()
+    {
+        return $this->category;
+    }
+
+    /**
+     * Add tagList
+     *
+     * @param TagList $tagList
+     *
+     * @return Tag
+     */
+    public function addTagList(TagList $tagList)
+    {
+        $this->tag_list[] = $tagList;
+
+        return $this;
+    }
+
+    /**
+     * Remove tagList
+     *
+     * @param TagList $tagList
+     */
+    public function removeTagList(TagList $tagList)
+    {
+        $this->tag_list->removeElement($tagList);
+    }
+
+    /**
+     * Get tagList
+     *
+     * @return Collection
+     */
+    public function getTagList()
+    {
+        return $this->tag_list;
+    }
+
+    /**
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->getSlug();
+    }
+
+    public function getStringForTranslation()
+    {
+        return $this->getSlug();
+    }
+}

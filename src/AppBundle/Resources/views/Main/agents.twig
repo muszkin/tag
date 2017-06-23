@@ -1,0 +1,5 @@
+    {% trans_default_domain "tag" %}
+    <option value>{{ "All.agents"|trans }}</option>
+{% for agent in agents %}
+    <option value="{{ agent.id }}">{{ agent }}</option>
+{% endfor %}

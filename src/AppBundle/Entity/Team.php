@@ -1,0 +1,225 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: muszkin
+ * Date: 24.05.17
+ * Time: 11:07
+ */
+
+namespace AppBundle\Entity;
+
+use AppBundle\Model\BaseModel;
+use AppBundle\Model\TeamInterface;
+use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
+
+/**
+ * Class Team
+ * @package AppBundle\Entity
+ * @ORM\Entity(repositoryClass="AppBundle\Repository\TeamRepository")
+ * @ORM\Table(name="team")
+ */
+class Team extends BaseModel implements TeamInterface
+{
+
+    /**
+     * @ORM\Id
+     * @ORM\Column(name="team_id",type="integer")
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    protected $id;
+
+    /**
+     * @ORM\Column(name="name",type="string")
+     */
+    protected $name;
+
+    /**
+     * @ORM\Column(name="slug",type="string")
+     */
+    protected $slug;
+
+
+    /**
+     * @ORM\OneToMany(targetEntity="AppBundle\Entity\Agent",mappedBy="team")
+     */
+    protected $agents;
+
+    /**
+     * @ORM\OneToMany(targetEntity="AppBundle\Entity\TeamSource",mappedBy="team")
+     */
+    protected $team_sources;
+
+    /**
+     * @ORM\OneToMany(targetEntity="AppBundle\Entity\TagList",mappedBy="team")
+     */
+    protected $tags_list;
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->agents = new ArrayCollection();
+        $this->team_sources = new ArrayCollection();
+        $this->tags_list = new ArrayCollection();
+    }
+
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set name
+     *
+     * @param string $name
+     *
+     * @return Team
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+
+        return $this;
+    }
+
+    /**
+     * Get name
+     *
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * Add agent
+     *
+     * @param Agent $agent
+     *
+     * @return Team
+     */
+    public function addAgent(Agent $agent)
+    {
+        $this->agents[] = $agent;
+
+        return $this;
+    }
+
+    /**
+     * Remove agent
+     *
+     * @param Agent $agent
+     */
+    public function removeAgent(Agent $agent)
+    {
+        $this->agents->removeElement($agent);
+    }
+
+    /**
+     * Get agents
+     *
+     * @return Collection
+     */
+    public function getAgents()
+    {
+        return $this->agents;
+    }
+
+    /**
+     * Add teamSource
+     *
+     * @param TeamSource $teamSource
+     *
+     * @return Team
+     */
+    public function addTeamSource(TeamSource $teamSource)
+    {
+        $this->team_sources[] = $teamSource;
+
+        return $this;
+    }
+
+    /**
+     * Remove teamSource
+     *
+     * @param TeamSource $teamSource
+     */
+    public function removeTeamSource(TeamSource $teamSource)
+    {
+        $this->team_sources->removeElement($teamSource);
+    }
+
+    /**
+     * Get teamSources
+     *
+     * @return Collection
+     */
+    public function getTeamSources()
+    {
+        return $this->team_sources;
+    }
+
+    /**
+     * Add tagsList
+     *
+     * @param TagList $tagsList
+     *
+     * @return Team
+     */
+    public function addTagsList(TagList $tagsList)
+    {
+        $this->tags_list[] = $tagsList;
+
+        return $this;
+    }
+
+    /**
+     * Remove tagsList
+     *
+     * @param TagList $tagsList
+     */
+    public function removeTagsList(TagList $tagsList)
+    {
+        $this->tags_list->removeElement($tagsList);
+    }
+
+    /**
+     * Get tagsList
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getTagsList()
+    {
+        return $this->tags_list;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSlug()
+    {
+        return $this->slug;
+    }
+
+    /**
+     * @param mixed $slug
+     */
+    public function setSlug($slug)
+    {
+        $this->slug = $slug;
+    }
+
+    public function getStringForTranslation()
+    {
+        return $this->getName();
+    }
+}

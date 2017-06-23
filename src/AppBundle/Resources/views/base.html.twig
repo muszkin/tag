@@ -1,0 +1,36 @@
+{% trans_default_domain "tag" %}
+<!doctype html>
+<html>
+    <head>
+        <title>{% if title is defined %}{{ title |trans}}{% else %}{{ "Tag report"|trans }}{% endif %}</title>
+        <script type="text/javascript" src="{{ asset('public/vendor/jquery/dist/jquery.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('public/vendor/jquery-ui/jquery-ui.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('public/vendor/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('public/vendor/bootstrap-select/dist/js/bootstrap-select.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('public/vendor/datatables.net/js/jquery.dataTables.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('public/vendor/amcharts/dist/amcharts/amcharts.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('public/vendor/amcharts/dist/amcharts/pie.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('public/vendor/amcharts/dist/amcharts/serial.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('public/vendor/amcharts/dist/amcharts/plugins/export/export.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('public/vendor/amcharts/dist/amcharts/lang/pl.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('public/vendor/amcharts/dist/amcharts/lang/tr.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('public/vendor/moment/min/moment.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('public/js/main.js') }}?v={{ random(10000000000) }}"></script>
+        <link rel="stylesheet" type="text/css" href="{{ asset('public/vendor/bootstrap/dist/css/bootstrap.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('public/vendor/bootstrap/dist/css/bootstrap-theme.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('public/vendor/jquery-ui/themes/base/jquery-ui.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('public/vendor/bootstrap-select/dist/css/bootstrap-select.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('public/vendor/datatables.net-dt/css/jquery.dataTables.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('public/vendor/amcharts/dist/amcharts/plugins/export/export.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('public/css/main.css') }}?v={{ random(10000000000) }}">
+    </head>
+    <body class="container-fluid">
+        {% include '@App/menu.html.twig' %}
+        <div class="row">
+            <div class="col-xs-12">
+                {% block content %}
+                {% endblock content %}
+            </div>
+        </div>
+    </body>
+</html>

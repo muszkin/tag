@@ -1,0 +1,39 @@
+{% extends "@App/ActivityLog/base.html.twig" %}
+{% block content %}
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    All errors for today
+                    <br/>
+                    <div class="navigation">
+                        {{ knp_pagination_render(logs) }}
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <table class="table table-bordered table-striped table-hover table-responsive">
+                        <thead class="thead-default">
+                            <th>{{ knp_pagination_sortable(logs, 'Id', 's.id') }}</th>
+                            <th>{{ knp_pagination_sortable(logs, 'Date', 's.date') }}</th>
+                            <th>{{ knp_pagination_sortable(logs, 'Description', 's.description') }}</th>
+                        </thead>
+                        <tbody>
+                        {% for log in logs %}
+                            <tr>
+                                <td scope="row">{{ log.id }}</td>
+                                <td>
+                                    {{ log.date|date('Y-m-d H:i:s') }}
+                                </td>
+                                <td>
+                                    {{ log.description }}
+                                </td>
+
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

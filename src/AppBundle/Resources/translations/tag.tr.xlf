@@ -1,0 +1,871 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file source-language="tr" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>menu.submit</source>
+                <target xml:lang="tr">Ara</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>no.tags.filter</source>
+                <target xml:lang="tr">Aradığınız kriterlere uygun bir etiket bulunamadı</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Problem</source>
+                <target xml:lang="tr">Sorunlar</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Formal</source>
+                <target xml:lang="tr">Diğer</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>HowTo</source>
+                <target xml:lang="tr">Nasıl yaparım</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Prospect</source>
+                <target xml:lang="tr">Avantajlar</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Reseller</source>
+                <target xml:lang="tr">Bayilik</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Kayako</source>
+                <target xml:lang="tr">Kayako</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Thulium</source>
+                <target xml:lang="tr">Thulium</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Whmcs</source>
+                <target xml:lang="tr">Whmcs</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Shoper</source>
+                <target xml:lang="tr">Shoper</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Zencommerce.in</source>
+                <target xml:lang="tr">Zencommerce.in</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Zencommerce.com</source>
+                <target xml:lang="tr">Zencommerce.com</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>q_client_soft_problem_domain</source>
+                <target xml:lang="tr">Alan adı ekleme veya yönlendirme</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>q_client_soft_problem_mail</source>
+                <target xml:lang="tr">Mail kurma / hesap açma / yönetme</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>q_client_soft_problem_product</source>
+                <target xml:lang="tr">Ürün ekleme</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>q_client_soft_problem_category</source>
+                <target xml:lang="tr">Kategor ekleme</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>q_client_soft_problem_csv</source>
+                <target xml:lang="tr">CSV veri aktarımı</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>q_client_soft_problem_options</source>
+                <target xml:lang="tr">Varyasyon oluşturma</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>q_client_soft_problem_attributes</source>
+                <target xml:lang="tr">Ürün özellikleri oluşturma</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>q_client_soft_problem_layout</source>
+                <target xml:lang="tr">Arayüz ayarları</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>q_client_soft_problem_css_html</source>
+                <target xml:lang="tr">Teknik tema düzenleme</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>q_client_soft_problem_info_page</source>
+                <target xml:lang="tr">Bilgi sayfası oluşturma</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>q_client_soft_problem_shipping</source>
+                <target xml:lang="tr">Gönderi yöntemi oluşturma</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>q_client_soft_problem_payment</source>
+                <target xml:lang="tr">Ödeme sistemi oluşturma</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>q_client_soft_problem_language</source>
+                <target xml:lang="tr">Ek dil düzenleme</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>q_client_soft_problem_currency</source>
+                <target xml:lang="tr">Para birimi ekleme</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>q_client_soft_problem_phrases</source>
+                <target xml:lang="tr">Metinler düzenleme</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>q_client_soft_problem_unit</source>
+                <target xml:lang="tr">Birim ekleme</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>q_client_soft_problem_invoice</source>
+                <target xml:lang="tr">Fatura oluşturma</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>q_client_soft_problem_auto_mail</source>
+                <target xml:lang="tr">Otomatik mailleri ayarlama</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>q_client_soft_problem_discount</source>
+                <target xml:lang="tr">İndirimleri ayarlama</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>q_client_soft_problem_points</source>
+                <target xml:lang="tr">Sadakat puanlarını düzenleme</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>q_client_soft_problem_newsletter</source>
+                <target xml:lang="tr">Haber bültenini ayarlama</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>q_client_soft_problem_blog</source>
+                <target xml:lang="tr">Blog ayarları</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>q_client_soft_problem_seo</source>
+                <target xml:lang="tr">Seo / metadata / site haritası</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>q_client_soft_problem_google</source>
+                <target xml:lang="tr">Siteyi Google'a ekleme</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>q_client_soft_problem_analytics</source>
+                <target xml:lang="tr">Google Analaytic ekleme</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>q_client_soft_problem_allegro</source>
+                <target xml:lang="tr">Allegro yapılandırma</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>q_client_soft_problem_facebook</source>
+                <target xml:lang="tr">Facebook modülünü düzenleme</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>q_client_soft_problem_comparison_site</source>
+                <target xml:lang="tr">Ceneo, nokaut, skąpiec, v.s. ayarları</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>q_client_soft_problem_google_products</source>
+                <target xml:lang="tr">Google alışveriş ayarları</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>q_client_soft_problem_favato</source>
+                <target xml:lang="tr">Favato ayarları</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>q_client_soft_problem_sales_manago</source>
+                <target xml:lang="tr">Salesmango ayarları</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>q_client_soft_problem_feedback</source>
+                <target xml:lang="tr">Entegre geribildirim ayarları</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>q_client_soft_problem_ftp</source>
+                <target xml:lang="tr">FTP ayarları</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>q_client_soft_problem_appstore</source>
+                <target xml:lang="tr">Uygulama mağazasındaki uygulamalar</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>q_client_soft_problem_api</source>
+                <target xml:lang="tr">API</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>q_client_soft_problem_no_tag</source>
+                <target xml:lang="tr">Etiket yok</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>q_client_soft_problem_erp</source>
+                <target xml:lang="tr">ERP entegrasyonu</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>q_client_soft_problem_order</source>
+                <target xml:lang="tr">Sipariş düzenleme</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>q_client_soft_problem_ssl</source>
+                <target xml:lang="tr">SSL hataları</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>q_client_soft_problem_monit</source>
+                <target xml:lang="tr">Hatırlatma</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>q_client_soft_cache</source>
+                <target xml:lang="tr">Önbellek temizleme</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>q_client_soft_problem_shopermanager</source>
+                <target xml:lang="tr">Shopermanager</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>q_client_soft_problem_shoper_pay</source>
+                <target xml:lang="tr">PayTR Ödeme ekleme</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>q_client_soft_problem_search</source>
+                <target xml:lang="tr">Admin veya ön panelde arama ve filtreleme</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>q_client_soft_problem_tpl_update</source>
+                <target xml:lang="tr">Update - tpl crashed</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>q_client_soft_problem_login</source>
+                <target xml:lang="tr">Giriş hataları</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>q_client_soft_lt_problem_change_domain</source>
+                <target xml:lang="tr">LT alan adı değişim hatası</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>q_client_soft_lt_problem_move_soft</source>
+                <target xml:lang="tr">LT move soft problem </target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>q_client_soft_lt_problem_update</source>
+                <target xml:lang="tr">LT update problem</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>q_client_soft_lt_problem_install</source>
+                <target xml:lang="tr">LT install problem</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>q_client_soft_lt_dev</source>
+                <target xml:lang="tr">LT Code edit problem</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>q_client_soft_lt_problem_error</source>
+                <target xml:lang="tr">LT Softwere crashed</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>q_client_soft_lt_problem_cron</source>
+                <target xml:lang="tr">LT cron problems</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>q_client_soft_lt_problem_hostingplus</source>
+                <target xml:lang="tr">LT hostingplus problems</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>q_client_formal_invoice_need</source>
+                <target xml:lang="tr">Müşteri fatura istiyor</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>q_client_formal_invoice_change</source>
+                <target xml:lang="tr">Fatura bilgisi değişimi</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>q_client_formal_data_change</source>
+                <target xml:lang="tr">Hesap bilgisi değişimi</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>q_client_formal_upsell</source>
+                <target xml:lang="tr">Ek hizmet satışı</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>q_client_formal_upsell_continuation</source>
+                <target xml:lang="tr">Ek hizmete devam etme</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>q_client_formal_continuation</source>
+                <target xml:lang="tr">Aboneliğe devam etme</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>q_client_formal_giodo</source>
+                <target xml:lang="tr">Giodo bildirimleri</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>q_client_formal_no_tag</source>
+                <target xml:lang="tr">Etiket yok</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>q_client_formal_panel</source>
+                <target xml:lang="tr">Müşteri paneli</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>q_client_formal_payment_confirm</source>
+                <target xml:lang="tr">Satın alma onayı</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>q_client_formal_home</source>
+                <target xml:lang="tr">Git home.pl</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>q_client_formal_feature</source>
+                <target xml:lang="tr">Yeni özellik talebi</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>q_client_formal_buyer</source>
+                <target xml:lang="tr">Shop customer contact</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>q_client_formal_swich</source>
+                <target xml:lang="tr">Arama aktarımı</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>q_client_formal_backup</source>
+                <target xml:lang="tr">Mağaza yedekleme</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>q_client_formal_deal</source>
+                <target xml:lang="tr">Sözleşme koşulları anımsatıcı</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>q_client_soft_ssl</source>
+                <target xml:lang="tr">SSl kurulumu</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>q_client_orders_promotion</source>
+                <target xml:lang="tr">Promotion first orders</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>q_client_soft_howto_domain</source>
+                <target xml:lang="tr">Alan adı satın alma ekleme veya yönlendirme</target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>q_client_soft_howto_mail</source>
+                <target xml:lang="tr">Mail ayarlama</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>q_client_soft_howto_product</source>
+                <target xml:lang="tr">Ürün ekleme</target>
+            </trans-unit>
+            <trans-unit id="90">
+                <source>q_client_soft_howto_category</source>
+                <target xml:lang="tr">Kategori ekleme</target>
+            </trans-unit>
+            <trans-unit id="91">
+                <source>q_client_soft_howto_csv</source>
+                <target xml:lang="tr">CSV dosya aktarımı</target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>q_client_soft_howto_options</source>
+                <target xml:lang="tr">Varyasyonları ekleme</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>q_client_soft_howto_attributes</source>
+                <target xml:lang="tr">Özellikleri ekleme</target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>q_client_soft_howto_layout</source>
+                <target xml:lang="tr">Görünümü düzenleme</target>
+            </trans-unit>
+            <trans-unit id="95">
+                <source>q_client_soft_howto_css_html</source>
+                <target xml:lang="tr">Gelişmiş düzenleme</target>
+            </trans-unit>
+            <trans-unit id="96">
+                <source>q_client_soft_howto_info_page</source>
+                <target xml:lang="tr">Bilgi sayfası oluşturma</target>
+            </trans-unit>
+            <trans-unit id="97">
+                <source>q_client_soft_howto_shipping</source>
+                <target xml:lang="tr">Gönderi yöntemi oluşturma</target>
+            </trans-unit>
+            <trans-unit id="98">
+                <source>q_client_soft_howto_payment</source>
+                <target xml:lang="tr">Ödeme yöntemi ayarları</target>
+            </trans-unit>
+            <trans-unit id="99">
+                <source>q_client_soft_howto_language</source>
+                <target xml:lang="tr">Dil ekleme</target>
+            </trans-unit>
+            <trans-unit id="100">
+                <source>q_client_soft_howto_currency</source>
+                <target xml:lang="tr">Para birimi ekleme</target>
+            </trans-unit>
+            <trans-unit id="101">
+                <source>q_client_soft_howto_phrases</source>
+                <target xml:lang="tr">Metinler düzenleme</target>
+            </trans-unit>
+            <trans-unit id="102">
+                <source>q_client_soft_howto_unit</source>
+                <target xml:lang="tr">Birim ekleme</target>
+            </trans-unit>
+            <trans-unit id="103">
+                <source>q_client_soft_howto_invoice</source>
+                <target xml:lang="tr">Fatura oluşturma</target>
+            </trans-unit>
+            <trans-unit id="104">
+                <source>q_client_soft_howto_auto_mail</source>
+                <target xml:lang="tr">Otomatik mailleri ayarlama</target>
+            </trans-unit>
+            <trans-unit id="105">
+                <source>q_client_soft_howto_discount</source>
+                <target xml:lang="tr">İndirimleri yönetme</target>
+            </trans-unit>
+            <trans-unit id="106">
+                <source>q_client_soft_howto_points</source>
+                <target xml:lang="tr">Sadakat puanlarını yönetme</target>
+            </trans-unit>
+            <trans-unit id="107">
+                <source>q_client_soft_howto_newsletter</source>
+                <target xml:lang="tr">Haber bülteni ayarları</target>
+            </trans-unit>
+            <trans-unit id="108">
+                <source>q_client_soft_howto_blog</source>
+                <target xml:lang="tr">Blog ayarları</target>
+            </trans-unit>
+            <trans-unit id="109">
+                <source>q_client_soft_howto_seo</source>
+                <target xml:lang="tr">Seo / metadata / site haritası</target>
+            </trans-unit>
+            <trans-unit id="110">
+                <source>q_client_soft_howto_google</source>
+                <target xml:lang="tr">Siteyi Google'a ekleme</target>
+            </trans-unit>
+            <trans-unit id="111">
+                <source>q_client_soft_howto_analytics</source>
+                <target xml:lang="tr">Google Analytics ayarları</target>
+            </trans-unit>
+            <trans-unit id="112">
+                <source>q_client_soft_howto_allegro</source>
+                <target xml:lang="tr">Allegro ayarları</target>
+            </trans-unit>
+            <trans-unit id="113">
+                <source>q_client_soft_howto_facebook</source>
+                <target xml:lang="tr">Facebook modülü ayarları</target>
+            </trans-unit>
+            <trans-unit id="114">
+                <source>q_client_soft_howto_comparison_site </source>
+                <target xml:lang="tr">Set ceneo, nokaut, skąpiec, etc</target>
+            </trans-unit>
+            <trans-unit id="115">
+                <source>q_client_soft_howto_google_products</source>
+                <target xml:lang="tr">Google Alışveriş ayarları</target>
+            </trans-unit>
+            <trans-unit id="116">
+                <source>q_client_soft_howto_favato</source>
+                <target xml:lang="tr">Favato ayarları</target>
+            </trans-unit>
+            <trans-unit id="117">
+                <source>q_client_soft_howto_sales_manago</source>
+                <target xml:lang="tr">Salesmango ayarları</target>
+            </trans-unit>
+            <trans-unit id="118">
+                <source>q_client_soft_howto_feedback</source>
+                <target xml:lang="tr">Entegre geribildirim ayarları</target>
+            </trans-unit>
+            <trans-unit id="119">
+                <source>q_client_soft_howto_ftp</source>
+                <target xml:lang="tr">FTP ayarları</target>
+            </trans-unit>
+            <trans-unit id="120">
+                <source>q_client_soft_howto_appstore</source>
+                <target xml:lang="tr">Uygulama mağazasındaki uygulamalar</target>
+            </trans-unit>
+            <trans-unit id="121">
+                <source>q_client_soft_howto_api</source>
+                <target xml:lang="tr">API</target>
+            </trans-unit>
+            <trans-unit id="122">
+                <source>q_client_soft_howto_no_tag</source>
+                <target xml:lang="tr">Etiket yok</target>
+            </trans-unit>
+            <trans-unit id="123">
+                <source>q_client_soft_howto_erp</source>
+                <target xml:lang="tr">Entegrasyon ERP</target>
+            </trans-unit>
+            <trans-unit id="124">
+                <source>q_client_soft_howto_order</source>
+                <target xml:lang="tr">Sipariş Düzenleme</target>
+            </trans-unit>
+            <trans-unit id="125">
+                <source>q_client_soft_howto_shopermanager</source>
+                <target xml:lang="tr">Shopermanager</target>
+            </trans-unit>
+            <trans-unit id="126">
+                <source>q_client_soft_howto_shoper_pay</source>
+                <target xml:lang="tr">PayTR ödeme ekleme</target>
+            </trans-unit>
+            <trans-unit id="127">
+                <source>q_client_soft_howto_search</source>
+                <target xml:lang="tr">Admin ve önyüz arama ve filtreler</target>
+            </trans-unit>
+            <trans-unit id="128">
+                <source>q_client_soft_lt_howto_change_domain</source>
+                <target xml:lang="tr">LT domain change</target>
+            </trans-unit>
+            <trans-unit id="129">
+                <source>q_client_soft_lt_howto_move_soft</source>
+                <target xml:lang="tr">LT move soft</target>
+            </trans-unit>
+            <trans-unit id="130">
+                <source>q_client_soft_lt_howto_update</source>
+                <target xml:lang="tr">LT update</target>
+            </trans-unit>
+            <trans-unit id="131">
+                <source>q_client_soft_lt_howto_install</source>
+                <target xml:lang="tr">LT install</target>
+            </trans-unit>
+            <trans-unit id="132">
+                <source>q_client_soft_lt_howto_serwer</source>
+                <target xml:lang="tr">LT configure serwer</target>
+            </trans-unit>
+            <trans-unit id="133">
+                <source>q_client_soft_lt_howto_cron</source>
+                <target xml:lang="tr">LT set cron</target>
+            </trans-unit>
+            <trans-unit id="134">
+                <source>q_client_soft_lt_howto_hostingplus</source>
+                <target xml:lang="tr">LT configure hostingplus</target>
+            </trans-unit>
+            <trans-unit id="135">
+                <source>q_prospect_price</source>
+                <target xml:lang="tr">Fiyat soruları</target>
+            </trans-unit>
+            <trans-unit id="136">
+                <source>q_prospect_deal</source>
+                <target xml:lang="tr">Sözleşme koşulları</target>
+            </trans-unit>
+            <trans-unit id="137">
+                <source>q_prospect_migration</source>
+                <target xml:lang="tr">Başka bir sistemden transfer</target>
+            </trans-unit>
+            <trans-unit id="138">
+                <source>q_prospect_import</source>
+                <target xml:lang="tr">Toplu veri aktarımı</target>
+            </trans-unit>
+            <trans-unit id="139">
+                <source>q_prospect_hosting_install</source>
+                <target xml:lang="tr">Sunucuya kurulum</target>
+            </trans-unit>
+            <trans-unit id="140">
+                <source>q_prospect_hosting_demo</source>
+                <target xml:lang="tr">Yazılım testi yapılmalı</target>
+            </trans-unit>
+            <trans-unit id="141">
+                <source>q_prospect_layout_change</source>
+                <target xml:lang="tr">Arayüz düzenleme</target>
+            </trans-unit>
+            <trans-unit id="142">
+                <source>q_prospect_payment</source>
+                <target xml:lang="tr">Ödeme yöntemi</target>
+            </trans-unit>
+            <trans-unit id="143">
+                <source>q_prospect_shipiing</source>
+                <target xml:lang="tr">Gönderi yöntemi</target>
+            </trans-unit>
+            <trans-unit id="144">
+                <source>q_prospect_invoice</source>
+                <target xml:lang="tr">Fatura oluşturma ve uygulamalar</target>
+            </trans-unit>
+            <trans-unit id="145">
+                <source>q_prospect_appstore</source>
+                <target xml:lang="tr">Uygulama mağazası soruları</target>
+            </trans-unit>
+            <trans-unit id="146">
+                <source>q_prospect_howto_start</source>
+                <target xml:lang="tr">Nereden başlamalıyım</target>
+            </trans-unit>
+            <trans-unit id="147">
+                <source>q_prospect_allegro</source>
+                <target xml:lang="tr">Allegro entegrasyonu</target>
+            </trans-unit>
+            <trans-unit id="148">
+                <source>q_prospect_soft_howto_domain</source>
+                <target xml:lang="tr">Alan adı alma, ekleme ve yönlendirme</target>
+            </trans-unit>
+            <trans-unit id="149">
+                <source>q_prospect_soft_howto_mail</source>
+                <target xml:lang="tr">Mail ayarları</target>
+            </trans-unit>
+            <trans-unit id="150">
+                <source>q_prospect_soft_howto_product</source>
+                <target xml:lang="tr">Ürün ekleme</target>
+            </trans-unit>
+            <trans-unit id="151">
+                <source>q_prospect_soft_howto_category</source>
+                <target xml:lang="tr">Kategori ekleme</target>
+            </trans-unit>
+            <trans-unit id="152">
+                <source>q_prospect_soft_howto_seo</source>
+                <target xml:lang="tr">Seo / metadata / site haritası</target>
+            </trans-unit>
+            <trans-unit id="153">
+                <source>q_prospect_prestashop</source>
+                <target xml:lang="tr">Prestashoptan aktarım</target>
+            </trans-unit>
+            <trans-unit id="154">
+                <source>q_prospect_redcart</source>
+                <target xml:lang="tr">Redcarttan aktarım</target>
+            </trans-unit>
+            <trans-unit id="155">
+                <source>q_prospect_opencart</source>
+                <target xml:lang="tr">Opencarttan aktarım</target>
+            </trans-unit>
+            <trans-unit id="156">
+                <source>q_prospect_clickshop</source>
+                <target xml:lang="tr">Clickshopdan aktarım</target>
+            </trans-unit>
+            <trans-unit id="157">
+                <source>q_prospect_skyshop</source>
+                <target xml:lang="tr">Skyshopdan aktarım</target>
+            </trans-unit>
+            <trans-unit id="158">
+                <source>q_prospect_magento</source>
+                <target xml:lang="tr">Magentodan aktarım</target>
+            </trans-unit>
+            <trans-unit id="159">
+                <source>q_prospect_az</source>
+                <target xml:lang="tr">Az'den aktarım</target>
+            </trans-unit>
+            <trans-unit id="160">
+                <source>q_prospect_selly</source>
+                <target xml:lang="tr">Sellyden aktarım</target>
+            </trans-unit>
+            <trans-unit id="161">
+                <source>q_prospect_shoplo</source>
+                <target xml:lang="tr">Shoplodan aktarım</target>
+            </trans-unit>
+            <trans-unit id="162">
+                <source>q_prospect_invoice_why</source>
+                <target xml:lang="tr">Neden bana fatura geldi</target>
+            </trans-unit>
+            <trans-unit id="163">
+                <source>q_prospect_promotion_price</source>
+                <target xml:lang="tr">Faturadaki meblağ</target>
+            </trans-unit>
+            <trans-unit id="164">
+                <source>q_prospect_no_tag</source>
+                <target xml:lang="tr">Etiket yok</target>
+            </trans-unit>
+            <trans-unit id="165">
+                <source>q_prospect_dropship</source>
+                <target xml:lang="tr">Dropshipping hakkında sorular</target>
+            </trans-unit>
+            <trans-unit id="166">
+                <source>q_prospect_login</source>
+                <target xml:lang="tr">Giriş sorunları</target>
+            </trans-unit>
+            <trans-unit id="167">
+                <source>q_reseller_deal</source>
+                <target xml:lang="tr">Sözleşme koşulları</target>
+            </trans-unit>
+            <trans-unit id="168">
+                <source>q_reseller_install</source>
+                <target xml:lang="tr">Sunucuya yükleme</target>
+            </trans-unit>
+            <trans-unit id="169">
+                <source>q_reseller_domain_change</source>
+                <target xml:lang="tr">Alan adı ekleme veya yönlendirme</target>
+            </trans-unit>
+            <trans-unit id="170">
+                <source>q_reseller_appstore</source>
+                <target xml:lang="tr">Uygulama mağazasındaki uygulamalar</target>
+            </trans-unit>
+            <trans-unit id="171">
+                <source>q_reseller_dev</source>
+                <target xml:lang="tr">Kod düzenleme hatası</target>
+            </trans-unit>
+            <trans-unit id="172">
+                <source>q_reseller_no_tag</source>
+                <target xml:lang="tr">Etiket yok</target>
+            </trans-unit>
+            <trans-unit id="173">
+                <source>q_reseller_update</source>
+                <target xml:lang="tr">Güncelleme hatası</target>
+            </trans-unit>
+            <trans-unit id="174">
+                <source>q_client_resignation</source>
+                <target xml:lang="tr">Cayma</target>
+            </trans-unit>
+            <trans-unit id="175">
+                <source>q_client_resignation</source>
+                <target xml:lang="tr">Cayma</target>
+            </trans-unit>
+            <trans-unit id="176">
+                <source>q_prospect_configuration</source>
+                <target xml:lang="tr">Kullanılabilir fonksiyonlar</target>
+            </trans-unit>
+            <trans-unit id="177">
+                <source>Agent</source>
+                <target xml:lang="tr">Uzman</target>
+            </trans-unit>
+            <trans-unit id="178">
+                <source>Team</source>
+                <target xml:lang="tr">Ekip</target>
+            </trans-unit>
+            <trans-unit id="179">
+                <source>Source</source>
+                <target xml:lang="tr">Kaynak</target>
+            </trans-unit>
+            <trans-unit id="180">
+                <source>Category</source>
+                <target xml:lang="tr">Kategori</target>
+            </trans-unit>
+            <trans-unit id="181">
+                <source>Tag</source>
+                <target xml:lang="tr">Etiket</target>
+            </trans-unit>
+            <trans-unit id="182">
+                <source>From</source>
+                <target xml:lang="tr">Başlangıç</target>
+            </trans-unit>
+            <trans-unit id="183">
+                <source>To</source>
+                <target xml:lang="tr">Bitiş</target>
+            </trans-unit>
+            <trans-unit id="184">
+                <source>Id</source>
+                <target xml:lang="tr">Id</target>
+            </trans-unit>
+            <trans-unit id="185">
+                <source>Date</source>
+                <target xml:lang="tr">Tarih</target>
+            </trans-unit>
+            <trans-unit id="186">
+                <source>Ticket id or Connection id</source>
+                <target xml:lang="tr">Talep ID/Bağlantı ID</target>
+            </trans-unit>
+            <trans-unit id="187">
+                <source>All</source>
+                <target xml:lang="tr">Tümü</target>
+            </trans-unit>
+            <trans-unit id="188">
+                <source>Tag report</source>
+                <target xml:lang="tr">Etiket raporu</target>
+            </trans-unit>
+            <trans-unit id="189">
+                <source>Group</source>
+                <target xml:lang="tr">Grup</target>
+            </trans-unit>
+            <trans-unit id="190">
+                <source>by Days</source>
+                <target xml:lang="tr">güne göre</target>
+            </trans-unit>
+            <trans-unit id="191">
+                <source>by Weeks</source>
+                <target xml:lang="tr">haftaya göre</target>
+            </trans-unit>
+            <trans-unit id="192">
+                <source>by Months</source>
+                <target xml:lang="tr">aya göre</target>
+            </trans-unit>
+            <trans-unit id="193">
+                <source>by Years</source>
+                <target xml:lang="tr">yıla göre</target>
+            </trans-unit>
+            <trans-unit id="194">
+                <source>All.agents</source>
+                <target xml:lang="tr">Tümü</target>
+            </trans-unit>
+            <trans-unit id="196">
+                <source>Total tags (filter: </source>
+                <target xml:lang="tr">Toplam etiket (filtre: </target>
+            </trans-unit>
+            <trans-unit id="197">
+                <source>Tags Amount</source>
+                <target xml:lang="tr">Etiket Adedi</target>
+            </trans-unit>
+            <trans-unit id="198">
+                <source>time</source>
+                <target xml:lang="tr">süre</target>
+            </trans-unit>
+            <trans-unit id="199">
+                <source>decimal</source>
+                <target xml:lang="tr"> </target>
+            </trans-unit>
+            <trans-unit id="200">
+                <source>emptyTable</source>
+                <target xml:lang="tr">Tabloda veri bulunmuyor</target>
+            </trans-unit>
+            <trans-unit id="201">
+                <source>info</source>
+                <target xml:lang="tr">Toplam _TOTAL_ veri içinde _START_ ve _END_ aralığındakiler</target>
+            </trans-unit>
+            <trans-unit id="202">
+                <source>infoEmpty</source>
+                <target xml:lang="tr">Toplam 0 veri içinde 0 ve 0 aralığındakiler</target>
+            </trans-unit>
+            <trans-unit id="203">
+                <source>infoFiltered</source>
+                <target xml:lang="tr">(toplam _MAX_ kayıt arasından filtrelendi)</target>
+            </trans-unit>
+            <trans-unit id="204">
+                <source>infoPostFix</source>
+                <target xml:lang="tr"> </target>
+            </trans-unit>
+            <trans-unit id="205">
+                <source>thousands</source>
+                <target xml:lang="tr">,</target>
+            </trans-unit>
+            <trans-unit id="206">
+                <source>lengthMenu</source>
+                <target xml:lang="tr">_MENU_ kayıtlarını göster</target>
+            </trans-unit>
+            <trans-unit id="207">
+                <source>loadingRecords</source>
+                <target xml:lang="tr">Yükleniyor...</target>
+            </trans-unit>
+            <trans-unit id="208">
+                <source>processing</source>
+                <target xml:lang="tr">İşleniyor...</target>
+            </trans-unit>
+            <trans-unit id="209">
+                <source>search</source>
+                <target xml:lang="tr">Ara:</target>
+            </trans-unit>
+            <trans-unit id="210">
+                <source>zeroRecords</source>
+                <target xml:lang="tr">Eşleşen kayıt bulunamadı</target>
+            </trans-unit>
+            <trans-unit id="211">
+                <source>first</source>
+                <target xml:lang="tr">Birinci</target>
+            </trans-unit>
+            <trans-unit id="212">
+                <source>last</source>
+                <target xml:lang="tr">Sonuncu</target>
+            </trans-unit>
+            <trans-unit id="213">
+                <source>next</source>
+                <target xml:lang="tr">Sonraki</target>
+            </trans-unit>
+            <trans-unit id="214">
+                <source>previous</source>
+                <target xml:lang="tr">Önceki</target>
+            </trans-unit>
+            <trans-unit id="215">
+                <source>sortAscending</source>
+                <target xml:lang="tr">: artışa göre sıralamak için etkinleştirin</target>
+            </trans-unit>
+            <trans-unit id="216">
+                <source>sortDescending</source>
+                <target xml:lang="tr">: azalışa göre sıralamak için etkinleştirin</target>
+            </trans-unit>
+            <trans-unit id="217">
+                <source>select.all</source>
+                <target xml:lang="tr">Hepsini seç</target>
+            </trans-unit>
+            <trans-unit id="218">
+                <source>deselect.all</source>
+                <target xml:lang="tr">Hiçbirini seçme</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

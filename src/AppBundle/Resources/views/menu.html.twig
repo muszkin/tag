@@ -1,0 +1,41 @@
+{% trans_default_domain 'tag' %}
+{% block menu %}
+    {{ form_start(menu) }}
+        <div class="col-xs-2">
+            {{ form_label(menu.from) }}
+            {{ form_widget(menu.from) }}
+        </div>
+        <div class="col-xs-2">
+            {{ form_label(menu.to) }}
+            {{ form_widget(menu.to) }}
+        </div>
+        <div class="col-xs-1">
+            {{ form_label(menu.team) }}
+            {{ form_widget(menu.team) }}
+        </div>
+        <div class="col-xs-1">
+            {{ form_label(menu.agent) }}
+            {{ form_widget(menu.agent) }}
+        </div>
+        <div class="col-xs-1">
+            {{ form_label(menu.source) }}
+            {{ form_widget(menu.source) }}
+        </div>
+        <div class="col-xs-1">
+            {{ form_label(menu.category) }}
+            {{ form_widget(menu.category) }}
+        </div>
+        <div class="col-xs-1">
+            {{ form_label(menu.tag) }}
+            {{ form_widget(menu.tag) }}
+        </div>
+        <div class="col-xs-1">
+            {{ form_label(menu.group) }}
+            {{ form_widget(menu.group) }}
+        </div>
+        <div class="col-xs-offset-10">
+            <label class="col-sm-2 control-label" for="menu_group">&nbsp;</label>
+            <input type="submit" value="{{ 'menu.submit'|trans }}" class="form-control btn btn-success btn-xs">
+        </div>
+    {{ form_end(menu) }}
+{% endblock %}

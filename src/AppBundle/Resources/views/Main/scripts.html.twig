@@ -1,0 +1,260 @@
+{% trans_default_domain "tag" %}
+{% block scripts %}
+    <script type="text/javascript">
+        var trans = "{{ app.request.locale }}";
+
+        function setDateTimePicker(){
+            $('#menu_from').datepicker({
+                dateFormat:'yy-mm-dd'
+            });
+            $('#menu_to').datepicker({
+                dateFormat:'yy-mm-dd'
+            });
+        }
+
+        function getAgents(team){
+            var url = "/" + trans + "/getAgents";
+            $.ajax({
+                url: url,
+                data:{
+                    team: team
+                },
+                success:function(data){
+                    $('#menu_agent').html(data);
+                    $('#menu_agent').selectpicker('refresh');
+                }
+            });
+        }
+
+        function getTags(category){
+            var url = "/" + trans + "/getTags";
+            $.ajax({
+                url: url,
+                data:{
+                    category:category
+                },
+                success:function(data){
+                    $('#menu_tag').html(data);
+                    $('#menu_tag').selectpicker('refresh');
+                }
+            })
+        }
+
+        function resetTags(){
+            $('#menu_tag').html(originalTags);
+            $('#menu_tag').selectpicker('refresh');
+        }
+
+        function resetAgents(){
+            $('#menu_agent').html(originalAgents);
+            $('#menu_agent').selectpicker('refresh');
+        }
+
+        function initSelectBox(){
+            var options = {
+                deselectAllText: "{{ "deselect.all"|trans }}",
+                selectAllText: "{{ "select.all"|trans }}"
+            };
+            $('#menu_tag').selectpicker(options);
+            $('#menu_agent').selectpicker(options);
+            $('#menu_team').selectpicker(options);
+            $('#menu_source').selectpicker(options);
+            $('#menu_group').selectpicker(options);
+            $('#menu_category').selectpicker(options);
+        }
+
+        function initTable(){
+            $('#tags-table').dataTable({
+                order:[1,'asc'],
+                language:{
+                    decimal:        "{{ "decimal"|trans }}",
+                    emptyTable:     "{{ "emptyTable"|trans }}",
+                    info:           "{{ "info"|trans }}",
+                    infoEmpty:      "{{ "infoEmpty"|trans }}",
+                    infoFiltered:   "{{ "infoFiltered"|trans }}",
+                    infoPostFix:    "{{ "infoPostFix"|trans }}",
+                    thousands:      "{{ "thousands"|trans }}",
+                    lengthMenu:     "{{ "lengthMenu"|trans }}",
+                    loadingRecords: "{{ "loadingRecords"|trans }}",
+                    processing:     "{{ "processing"|trans }}",
+                    search:         "{{ "search"|trans }}",
+                    zeroRecords:    "{{ "zeroRecords"|trans }}",
+                    paginate: {
+                        first:      "{{ "first"|trans }}",
+                        last:       "{{ "last"|trans }}",
+                        next:       "{{ "next"|trans }}",
+                        previous:   "{{ "previous"|trans }}"
+                    },
+                    aria: {
+                        sortAscending:  "{{ "sortAscending"|trans }}",
+                        sortDescending: "{{ "sortDescending"|trans }}"
+                    }
+                }
+            });
+        }
+
+        var locale = {
+            "team": "{{ "Team"|trans }}",
+            "agent": "{{ "Agent"|trans }}",
+            "category": "{{ "Category"|trans }}",
+            "source": "{{ "Source"|trans }}",
+            "tag": "{{ "Tag"|trans }}"
+        };
+
+        function createChart(){
+            var pieSelector = ".charts-pie";
+            $(pieSelector).each(function(key,index) {
+                var lastClassPie = $(index).attr('class').split(' ').pop();
+                var chartDataPie = $(index).data('json');
+                var dataPie = [];
+                $.each(chartDataPie, function (key, value) {
+                    dataPie.push(value);
+                });
+                AmCharts.makeChart(lastClassPie,
+                    {
+                        "type": "pie",
+                        "balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
+                        "labelText": "[[title]]: [[value]] ([[percents]]%)",
+                        "titleField": "category",
+                        "valueField": "value",
+                        "allLabels": [],
+                        "balloon": {},
+                        "legend": {
+                            "enabled": true,
+                            "align": "center",
+                            "markerType": "circle"
+                        },
+                        "titles": [
+                            {
+                                "id": "category",
+                                "text": "{{ "Total tags (filter: "|trans }}" + locale[$(index).data('name')] + ")"
+                            }
+                        ],
+                        "export": {
+                            "enabled":true
+                        },
+                        "dataProvider": dataPie
+                    }
+                );
+            });
+            var lineSelector = ".charts-line";
+            $(lineSelector).each(function(key,index){
+                var lastClassLine = $(index).attr('class').split(' ').pop();
+                var chartDataLine =  $(index).data('json');
+                var graphsDataLine = $(index).data('graphs');
+                var dataLine = [];
+                var graphs = [];
+                var period = chartDataLine.period;
+                delete chartDataLine.period;
+                $.each(chartDataLine,function(k1,date){
+                    var record = {};
+                    if ('WW' === period){
+                        var d = k1.split(" ");
+                        record.date = moment().day("Monday").year(d[0]).week(d[1]).toDate();
+                    }else {
+                        record.date = k1;
+                    }
+                    $.each(date,function(k2,team){
+                        record[k2] = team;
+                    });
+                    dataLine.push(record);
+                });
+                $.each(graphsDataLine,function(k2,ele){
+                    var graph = {};
+                    graph.id = ele;
+                    graph.title = ele;
+                    graph.valueField = ele;
+                    graph.bullet = "round";
+                    graphs.push(graph);
+                });
+                AmCharts.makeChart(lastClassLine,
+                    {
+                        "type": "serial",
+                        "categoryField": "date",
+                        "dataDateFormat": "YYYY-MM-DD JJ:NN:SS",
+                        "categoryAxis": {
+                            "parseDates": true,
+                            "dateFormats": [{
+                                period: 'DD',
+                                format: 'MMM DD'
+                            }, {
+                                period: 'WW',
+                                format: 'MMM DD'
+                            }, {
+                                period: 'MM',
+                                format: 'MMM'
+                            }, {
+                                period: 'YYYY',
+                                format: 'YYYY'
+                            }],
+                            "minPeriod": period
+                        },
+                        "chartCursor": {
+                            "enabled": true
+                        },
+                        "chartScrollbar": {
+                            "enabled": true
+                        },
+                        "trendLines": [],
+                        "graphs": graphs,
+                        "guides": [],
+                        "valueAxes": [
+                            {
+                                "id": "ValueAxis-1",
+                                "title": "{{ "Tags Amount" |trans}}"
+                            }
+                        ],
+                        "allLabels": [],
+                        "balloon": {},
+                        "legend": {
+                            "enabled": true,
+                            "useGraphSettings": true
+                        },
+                        "export": {
+                            "enabled":true
+                        },
+                        "titles": [
+                            {
+                                "id": "title2",
+                                "size": 15,
+                                "text": locale[$(index).data('name')] + " [{{ "time"|trans }}]"
+                            }
+                        ],
+                        "dataProvider": dataLine
+                    }
+                );
+            });
+        }
+
+        var originalAgents,originalTags;
+
+        String.prototype.capitalize = function() {
+            return this.charAt(0).toUpperCase() + this.slice(1);
+        };
+
+        $(document).ready(function(){
+            setDateTimePicker();
+            initSelectBox();
+            originalTags = $('#menu_tag').html();
+            originalAgents = $('#menu_agent').html();
+            $('#menu_category').on('change',function(){
+                if (this.value != ''){
+                    getTags(this.value);
+                }else{
+                    resetTags();
+                }
+            });
+            $('#menu_team').on('change',function(){
+                if (this.value != ''){
+                    getAgents(this.value);
+                }else{
+                    resetAgents();
+                }
+            });
+            if ($('#no-tags') != undefined){
+                initTable();
+                createChart();
+            }
+        });
+    </script>
+{% endblock scripts %}
